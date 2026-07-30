@@ -1,0 +1,39 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "How do online ads actually bring customers into a physical store?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Location-targeted ads on Google and social media reach nearby shoppers at the moment they are searching or browsing, then direct them to your store with one-tap navigation or a time-limited in-store offer.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What is the most cost-effective channel for South African small businesses?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Google Search Ads combined with an optimised Google Business Profile deliver the highest return for most South African SMEs, because they capture customers who are already searching for what you sell.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How does geofencing help increase store visitors?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Geofencing lets you serve ads only to people within a defined radius of your store, cutting wasted spend on audiences too far away to visit and improving your cost per in-store conversion.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How quickly can online advertising increase foot traffic?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Google Search Ads and social media campaigns can generate measurable store visits within weeks. Local SEO improvements compound over months, so running both together gives you early wins and longer-term growth.",
+        "@type": "Answer"
+      }
+    }
+  ],
+  "inLanguage": "en-ZA"
+}

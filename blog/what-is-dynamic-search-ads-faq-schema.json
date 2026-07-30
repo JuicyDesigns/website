@@ -1,0 +1,47 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "What is the difference between search ads and dynamic search ads?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Standard search ads match your manually chosen keywords to user queries, giving you full control over headlines and landing pages. Dynamic Search Ads skip the keyword list entirely - Google crawls your site and automatically generates the headline and selects the landing page based on your content.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How do you set up dynamic search ads in Google Ads?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Create a Search campaign, enter your domain under DSA settings (HTTPS required), add a Dynamic ad group, write your description lines, choose your dynamic ad targets (page feed or specific webpages), set up conversion tracking, and add negative keywords before launch.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Why would you use page feeds for dynamic search ads?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Page feeds let you specify exactly which URLs are eligible for DSA targeting, preventing Google from serving ads on out-of-stock pages, blog posts, or policy pages. They're the most effective way to protect budget and improve conversion rates for large or complex sites.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Can dynamic search ads run alongside keyword campaigns?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, and that's the recommended setup. Run DSAs as a catch-all to capture long-tail and new queries, while keeping your highest-value terms in keyword campaigns with tailored copy. Use campaign-level negative keywords to prevent the two from competing against each other.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How long before dynamic search ads show results?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Expect a cold-start period of 24 to 48 hours for Google to index your site and populate dynamic targets. Meaningful performance data - enough to make optimisation decisions - typically takes one to two weeks of active traffic.",
+        "@type": "Answer"
+      }
+    }
+  ],
+  "inLanguage": "en-ZA"
+}

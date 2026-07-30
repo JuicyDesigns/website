@@ -1,0 +1,47 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "What are the most effective South African campaigns in recent years?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "City Lodge's 'Save Our Stay (SOS)' won the Grand Effie at the 2025 Effie Awards South Africa, making it the officially recognised most effective campaign of the year. Castle Lager's 'GranBoks' and Vaseline's 'Mtana ka Gogo' are among the most cited for cultural impact and measurable results.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What is in high demand in South African marketing right now?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Cultural listening, low-friction digital activation (QR-to-mobisite mechanics), and dark social distribution via WhatsApp are the highest-demand capabilities in South African marketing in 2026. Brands that combine these with a single clear objective consistently outperform those using broad, multi-objective campaigns.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What makes a South African advertising campaign successful?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The Effie South Africa 2025 trends report identifies clarity of intent as the decisive discipline: winning campaigns prioritise one objective rather than attempting to drive awareness, trial, and advocacy simultaneously. Cultural specificity and integrated measurement are the other two consistent factors.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How do South African brands measure campaign effectiveness?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The most common KPIs are reach and share of voice for awareness objectives, sales uplift and ROAS for conversion objectives, and mobisite conversion rates for participatory activations. Third-party validation through Effie Awards and Scopen peer-evaluation data is widely used as an effectiveness benchmark.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Can a small South African brand replicate these campaign strategies?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes. Vaseline's 'Mtana ka Gogo' launched as a social media execution with no large production budget. Cadbury's mobisite was built in approximately one week. The core principles - a single insight, a low-friction mechanic, and WhatsApp seeding - are accessible at any budget level, including activations under R50,000.",
+        "@type": "Answer"
+      }
+    }
+  ],
+  "inLanguage": "en-ZA"
+}

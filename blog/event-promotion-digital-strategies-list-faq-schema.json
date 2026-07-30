@@ -1,0 +1,47 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "What are the 5 C's of event marketing?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Definitions vary across practitioners, but a widely used version covers Content, Channels, Community, Conversion, and Compliance. Together they describe what you say, where you say it, who you build around the event, how you turn interest into registrations, and how you stay within legal boundaries like POPIA.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What are the main digital marketing strategies for events?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The core strategies are social media marketing, email marketing, paid advertising (Google Ads and social ads), SEO-driven event websites, content marketing, influencer collaboration, and WhatsApp or messaging app outreach. In South Africa, each must be layered with POPIA compliance.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How do you promote an event online in South Africa?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Start with a mobile-optimised landing page, build a segmented email list with documented consent, run targeted paid ads on the platforms where your audience is active (LinkedIn for B2B, Facebook and Instagram for consumer events), and use WhatsApp broadcasts for direct outreach to opted-in contacts.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What promotional strategies work best for increasing event attendance?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Early-bird pricing with a hard deadline, retargeting ads for website visitors who did not register, personalised email drip sequences, and influencer endorsements in the event's niche consistently drive the strongest attendance lifts. Combining two or more of these in a coordinated campaign outperforms any single tactic.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How does Juicy Designs support digital event promotion?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Juicy Designs runs integrated event marketing campaigns covering Google Ads, paid social, SEO, and email strategy, with direct founder involvement and no long-term contracts. Their campaigns have delivered a 4.8x average ROAS for South African clients.",
+        "@type": "Answer"
+      }
+    }
+  ],
+  "inLanguage": "en-ZA"
+}

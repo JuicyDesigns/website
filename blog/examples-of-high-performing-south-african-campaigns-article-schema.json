@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.juicydesigns.co.za/blog/examples-of-high-performing-south-african-campaigns/#article",
+      "headline": "10 high-performing South African campaign examples",
+      "description": "Ten high-performing South African marketing campaigns from 2021 to 2025, from GranBoks to City Lodge SOS, and the strategic patterns behind their results.",
+      "url": "https://www.juicydesigns.co.za/blog/examples-of-high-performing-south-african-campaigns/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.juicydesigns.co.za/blog/examples-of-high-performing-south-african-campaigns/"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.juicydesigns.co.za/images/blog/examples-of-high-performing-south-african-campaigns-hero.jpg"
+      },
+      "author": {
+        "@id": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/#person"
+      },
+      "publisher": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "inLanguage": "en-ZA",
+      "datePublished": "2026-07-27T08:00:00+02:00",
+      "dateModified": "2026-07-30T08:00:00+02:00"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.juicydesigns.co.za/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.juicydesigns.co.za/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "10 high-performing South African campaign examples",
+          "item": "https://www.juicydesigns.co.za/blog/examples-of-high-performing-south-african-campaigns/"
+        }
+      ]
+    }
+  ]
+}

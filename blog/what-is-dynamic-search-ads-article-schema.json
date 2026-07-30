@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.juicydesigns.co.za/blog/what-is-dynamic-search-ads/#article",
+      "headline": "Dynamic search ads explained: a guide for SA marketers",
+      "description": "What Dynamic Search Ads are, how Google generates headlines from your site, when DSAs fit, and the setup and negative-keyword controls SA marketers need.",
+      "url": "https://www.juicydesigns.co.za/blog/what-is-dynamic-search-ads/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.juicydesigns.co.za/blog/what-is-dynamic-search-ads/"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.juicydesigns.co.za/images/blog/what-is-dynamic-search-ads-hero.jpg"
+      },
+      "author": {
+        "@id": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/#person"
+      },
+      "publisher": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "inLanguage": "en-ZA",
+      "datePublished": "2026-07-24T08:00:00+02:00",
+      "dateModified": "2026-07-30T08:00:00+02:00"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.juicydesigns.co.za/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.juicydesigns.co.za/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dynamic search ads explained: a guide for SA marketers",
+          "item": "https://www.juicydesigns.co.za/blog/what-is-dynamic-search-ads/"
+        }
+      ]
+    }
+  ]
+}

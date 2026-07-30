@@ -1,0 +1,47 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "Why does social media matter for retail in South Africa?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Social media connects retailers to customers at the discovery stage, builds trust through engagement, and drives measurable conversions. With 42% of South African consumers buying after seeing a social promotion, the commercial case is direct.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How much should a South African retailer spend on social ads?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most South African organisations spend under R10,000 per month on social ads. A realistic starting point for measurable results is R5,000 - R15,000 per month for single-platform testing, scaling to R15,000 - R50,000 for multi-platform campaigns with consistent ROAS.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Which social platform works best for South African retail?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Meta (Facebook and Instagram) offers the widest reach and strongest paid targeting for most retailers. WhatsApp Business is the most effective channel for repeat purchases and customer support, particularly for small and micro-retailers.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How long does it take to see results from retail social media?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Expect early learnings within 30 days, measurable conversion lift between 30 to 90 days, and sustained loyalty effects over 3 to 6 months when engagement strategies are maintained consistently.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What ROAS can South African retailers realistically expect?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Juicy Designs clients achieve an average ROAS of 4.8x, which is nearly double the industry standard. Results depend on creative quality, audience targeting, and how well social activity connects to fulfilment and post-click experience.",
+        "@type": "Answer"
+      }
+    }
+  ],
+  "inLanguage": "en-ZA"
+}
