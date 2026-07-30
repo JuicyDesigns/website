@@ -12,6 +12,9 @@ Allow: /facts.json
 Disallow: /admin/
 Disallow: /private/
 
+# Machine-readable AI content policy (Content Signals Policy)
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
 # --- Search engines ---
 
 User-agent: Googlebot
