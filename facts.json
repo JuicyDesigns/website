@@ -1,0 +1,2016 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.juicydesigns.co.za/#organization",
+      "@type": [
+        "LocalBusiness",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "name": "Juicy Designs",
+      "legalName": "Juicy Designs (Pty) Ltd",
+      "url": "https://www.juicydesigns.co.za/",
+      "logo": "https://www.juicydesigns.co.za/img/juicy-designs-logo-512.png",
+      "image": "https://www.juicydesigns.co.za/images/Juicy-Designs-Digital-Marketing-Agency-Pretoria-OG.png",
+      "slogan": "We make brands impossible to ignore",
+      "email": "info@juicydesigns.co.za",
+      "telephone": "+27 79 395 3300",
+      "foundingDate": "2015",
+      "foundingLocation": [
+        {
+          "@type": "Place",
+          "name": "Pretoria, South Africa"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Gordon Verster Road",
+        "addressLocality": "Pretoria",
+        "addressRegion": "Gauteng",
+        "postalCode": "0184",
+        "addressCountry": "ZA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -25.7549,
+        "longitude": 28.3186
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Pretoria"
+        },
+        {
+          "@type": "City",
+          "name": "Centurion"
+        },
+        {
+          "@type": "City",
+          "name": "Midrand"
+        },
+        {
+          "@type": "City",
+          "name": "Sandton"
+        },
+        {
+          "@type": "City",
+          "name": "Johannesburg"
+        },
+        {
+          "@type": "City",
+          "name": "Cape Town"
+        },
+        {
+          "@type": "City",
+          "name": "Durban"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gauteng"
+        },
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "founder": [
+        {
+          "@id": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/#person"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/#person"
+        }
+      ],
+      "employee": [
+        {
+          "@id": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/#person"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/#person"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/team/lenata-oosthuizen/#person"
+        }
+      ],
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minValue": 2,
+        "maxValue": 10
+      },
+      "knowsAbout": [
+        "Digital marketing",
+        "Digital marketing strategy",
+        "Search engine optimisation",
+        "Technical SEO",
+        "Local SEO",
+        "Entity SEO",
+        "AI search optimisation",
+        "Answer Engine Optimisation",
+        "Generative Engine Optimisation",
+        "Google AI Overviews",
+        "Google Ads",
+        "Google Analytics",
+        "Conversion tracking",
+        "Performance marketing",
+        "Meta advertising",
+        "Paid social advertising",
+        "Social media marketing",
+        "Content strategy",
+        "Content production",
+        "Community management",
+        "Web design",
+        "Web development",
+        "WordPress",
+        "E-commerce",
+        "Branding",
+        "Logo design",
+        "Brand identity",
+        "Lead generation",
+        "Conversion optimisation",
+        "Landing page design",
+        "Email marketing",
+        "SMS marketing",
+        "Influencer marketing",
+        "User-generated content",
+        "Programmatic advertising",
+        "Digital out-of-home advertising",
+        "Public relations"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Google Ads Certified"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Google Analytics Certified"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Meta Business Partner"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/TheJuicyDesigns/",
+        "https://www.instagram.com/juicydesigns.co.za/",
+        "https://www.linkedin.com/company/juicy-designs-sa/",
+        "https://x.com/TheJuicyDesigns",
+        "https://www.tiktok.com/@thejuicydesigns",
+        "https://g.page/juicydesigns",
+        "https://www.bizcommunity.com/Company/JuicyDesigns",
+        "https://www.designrush.com/agency/profile/juicy-designs",
+        "https://www.goodfirms.co/company/juicy-designs",
+        "https://www.sortlist.com/agency/juicy-designs",
+        "https://www.crunchbase.com/organization/juicy-designs",
+        "https://clutch.co/profile/juicy-designs",
+        "https://partnersdirectory.withgoogle.com/partners/8533751882"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5.0",
+        "worstRating": "1.0",
+        "reviewCount": "214"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "info@juicydesigns.co.za",
+          "telephone": "+27 79 395 3300",
+          "areaServed": "South Africa"
+        }
+      ],
+      "priceRange": "R1,800-R50,000+",
+      "currenciesAccepted": "ZAR",
+      "paymentAccepted": "EFT, Credit Card",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "description": "Juicy Designs is a founder-led full-service digital marketing agency and promotion company based in Pretoria, South Africa. Established in 2015 by Cobus van der Westhuizen and Wynand van der Westhuizen, the agency delivers strategy, design, advertising and social media marketing intended to turn attention into revenue. Its in-house full-funnel services include search engine optimisation, AI search optimisation covering AEO and GEO, Google Ads, Meta advertising, paid social, social media marketing, web design, web development, branding, content production, lead generation, email marketing and conversion-focused landing pages. Clients work directly with the founders rather than account managers, junior staff or outsourced teams. Juicy Designs serves businesses across Pretoria, Gauteng and South Africa, including automotive, entertainment, food and beverage, industrial, insurance, retail, professional services and healthcare organisations. The business reports serving more than 64 clients, a weighted average 4.8x return on ad spend across 38 active Google Ads and Meta Ads accounts from January 2025 to April 2026, and a 4.9 out of 5 Google rating from 214 reviews verified in May 2026.",
+      "makesOffer": [
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-seo"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-ai-search"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-google-ads"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-social-media"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-web-design"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-web-development"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-ecommerce"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-branding"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-email-sms"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-logo-identity"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-content-social"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-paid-social"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-lead-generation"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-digital-strategy"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-graphic-design"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-print-design"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-marketing-collateral"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-merchandise"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-gbp"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-display"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-influencer"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-ugc"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-tiktok-shop"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-pr"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-programmatic"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-content-marketing"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-cro"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-landing-pages"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-website-ai-seo"
+        },
+        {
+          "@id": "https://www.juicydesigns.co.za/#offer-web-apps"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Juicy Designs Digital Marketing, Advertising, Design and Development Services",
+        "itemListElement": [
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-seo"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-ai-search"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-google-ads"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-social-media"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-web-design"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-web-development"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-ecommerce"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-branding"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-email-sms"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-logo-identity"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-content-social"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-paid-social"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-lead-generation"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-digital-strategy"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-graphic-design"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-print-design"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-marketing-collateral"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-merchandise"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-gbp"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-display"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-influencer"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-ugc"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-tiktok-shop"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-pr"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-programmatic"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-content-marketing"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-cro"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-landing-pages"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-website-ai-seo"
+          },
+          {
+            "@id": "https://www.juicydesigns.co.za/#service-web-apps"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#website",
+      "@type": "WebSite",
+      "name": "Juicy Designs",
+      "url": "https://www.juicydesigns.co.za/",
+      "publisher": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "inLanguage": "en-ZA",
+      "description": "The Juicy Designs website presents founder-led digital marketing, advertising, design, web development and AI-search services for businesses in Pretoria, Gauteng and South Africa.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.juicydesigns.co.za/blog/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/#person",
+      "@type": "Person",
+      "name": "Cobus van der Westhuizen",
+      "jobTitle": "Co-founder & CEO",
+      "url": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/",
+      "worksFor": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "knowsAbout": [
+        "Google Ads",
+        "SEO",
+        "Digital Marketing",
+        "Lead Generation",
+        "Data Analytics"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Google Ads Search Certified"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Google Analytics Certified"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/cobus-van-der-westhuizen-2610ba63"
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/#person",
+      "@type": "Person",
+      "name": "Wynand van der Westhuizen",
+      "jobTitle": "Co-founder & Creative Director",
+      "url": "https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/",
+      "worksFor": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "knowsAbout": [
+        "Branding",
+        "Web Design",
+        "Social Media Marketing",
+        "Creative Strategy",
+        "Content Production"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Meta Business Partner"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/wynandvdwesthuizen/"
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/team/lenata-oosthuizen/#person",
+      "@type": "Person",
+      "name": "Lenata Oosthuizen",
+      "jobTitle": "Content Editor",
+      "url": "https://www.juicydesigns.co.za/team/lenata-oosthuizen/",
+      "worksFor": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      }
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-seo",
+      "@type": "Service",
+      "name": "SEO and Content",
+      "serviceType": "Search engine optimisation",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/seo/",
+      "description": "Technical SEO, content and local SEO for organic visibility across South Africa, including ongoing SEO and AI-visibility work.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-seo"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R5,500 per month",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Included work",
+          "value": "Technical SEO, content and local SEO"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-seo",
+      "@type": "Offer",
+      "name": "SEO and Content from R5,500 per month",
+      "url": "https://www.juicydesigns.co.za/services/seo/",
+      "description": "Monthly SEO and content retainer; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-seo"
+      },
+      "priceCurrency": "ZAR",
+      "price": "5500",
+      "priceRange": "From R5,500 per month"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-ai-search",
+      "@type": "Service",
+      "name": "AI Search Optimisation (AEO and GEO)",
+      "serviceType": "AI search optimisation",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/ai-search-optimisation/",
+      "description": "SEO, Answer Engine Optimisation and Generative Engine Optimisation combined in one programme to help businesses be cited by ChatGPT, Gemini, Perplexity and Google AI Overviews.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-ai-search"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R5,500 per month",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "AI platforms",
+          "value": "ChatGPT, Gemini, Perplexity and Google AI Overviews"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Included disciplines",
+          "value": "SEO, AEO and GEO"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-ai-search",
+      "@type": "Offer",
+      "name": "AI Search (AEO and GEO) from R5,500 per month",
+      "url": "https://www.juicydesigns.co.za/services/ai-search-optimisation/",
+      "description": "AI-search programme combining SEO, AEO and GEO; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-ai-search"
+      },
+      "priceCurrency": "ZAR",
+      "price": "5500",
+      "priceRange": "From R5,500 per month"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-google-ads",
+      "@type": "Service",
+      "name": "Google Ads and PPC",
+      "serviceType": "Google Ads and pay-per-click advertising",
+      "category": "Paid advertising",
+      "url": "https://www.juicydesigns.co.za/services/google-ads/",
+      "description": "Search, Shopping, Display and YouTube campaigns managed for return on ad spend, with ad spend billed separately and never marked up.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-google-ads"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting management fee",
+          "value": "R6,000 per month excluding ad spend",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Campaign types",
+          "value": "Search, Shopping, Display and YouTube"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Ad spend",
+          "value": "Billed separately and never marked up"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-google-ads",
+      "@type": "Offer",
+      "name": "Google Ads and PPC from R6,000 per month",
+      "url": "https://www.juicydesigns.co.za/services/google-ads/",
+      "description": "Google Ads management fee excluding separately billed ad spend; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-google-ads"
+      },
+      "priceCurrency": "ZAR",
+      "price": "6000",
+      "priceRange": "From R6,000 per month excluding ad spend"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-social-media",
+      "@type": "Service",
+      "name": "Social Media Marketing",
+      "serviceType": "Social media marketing",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/social-media-marketing/",
+      "description": "Social media strategy, content, scheduling and community management across key platforms, with paid campaigns available on higher tiers.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-social-media"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R6,000 per month",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Included work",
+          "value": "Strategy, content, scheduling and community management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-social-media",
+      "@type": "Offer",
+      "name": "Social Media Marketing from R6,000 per month",
+      "url": "https://www.juicydesigns.co.za/services/social-media-marketing/",
+      "description": "Managed social-media marketing; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-social-media"
+      },
+      "priceCurrency": "ZAR",
+      "price": "6000",
+      "priceRange": "From R6,000 per month"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-web-design",
+      "@type": "Service",
+      "name": "Website Design",
+      "serviceType": "Web design",
+      "category": "Design and development",
+      "url": "https://www.juicydesigns.co.za/services/web-design-south-africa/",
+      "description": "Fast, responsive, conversion-focused websites for South African businesses, optimised for Google and AI search.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-web-design"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R12,000 once-off",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Features",
+          "value": "Fast, responsive, conversion-focused and optimised for Google and AI search"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-web-design",
+      "@type": "Offer",
+      "name": "Website Design from R12,000 once-off",
+      "url": "https://www.juicydesigns.co.za/services/web-design-south-africa/",
+      "description": "Conversion-focused responsive website design; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-web-design"
+      },
+      "priceCurrency": "ZAR",
+      "price": "12000",
+      "priceRange": "From R12,000 once-off"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-web-development",
+      "@type": "Service",
+      "name": "Website Development",
+      "serviceType": "Website development",
+      "category": "Design and development",
+      "url": "https://www.juicydesigns.co.za/services/website-development/",
+      "description": "Custom WordPress builds, web apps and bespoke development with CMS, blog and integrations for growing businesses.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-web-development"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R18,000 once-off",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Features",
+          "value": "Custom WordPress builds, web apps, bespoke development, CMS, blog and integrations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-web-development",
+      "@type": "Offer",
+      "name": "Website Development from R18,000 once-off",
+      "url": "https://www.juicydesigns.co.za/services/website-development/",
+      "description": "Custom WordPress, web application and bespoke-development service; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-web-development"
+      },
+      "priceCurrency": "ZAR",
+      "price": "18000",
+      "priceRange": "From R18,000 once-off"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-ecommerce",
+      "@type": "Service",
+      "name": "Ecommerce Development",
+      "serviceType": "Ecommerce website development",
+      "category": "Design and development",
+      "url": "https://www.juicydesigns.co.za/services/ecommerce-web-design/",
+      "description": "Online stores with South African payment gateways, catalogue and checkout built to convert and scale.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-ecommerce"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R25,000 once-off",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Features",
+          "value": "South African payment gateways, catalogue and checkout"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-ecommerce",
+      "@type": "Offer",
+      "name": "Ecommerce Development from R25,000 once-off",
+      "url": "https://www.juicydesigns.co.za/services/ecommerce-web-design/",
+      "description": "Online-store development with South African payment gateways, catalogue and checkout; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-ecommerce"
+      },
+      "priceCurrency": "ZAR",
+      "price": "25000",
+      "priceRange": "From R25,000 once-off"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-branding",
+      "@type": "Service",
+      "name": "Branding and Identity",
+      "serviceType": "Branding and brand identity",
+      "category": "Design and branding",
+      "url": "https://www.juicydesigns.co.za/services/branding/",
+      "description": "A complete visual identity system including logo design, colour, typography and brand guidelines rather than a one-off logo.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-branding"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R15,000 once-off",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Included work",
+          "value": "Logo design, colour, typography and brand guidelines"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-branding",
+      "@type": "Offer",
+      "name": "Branding and Identity from R15,000 once-off",
+      "url": "https://www.juicydesigns.co.za/services/branding/",
+      "description": "Complete visual-identity system; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-branding"
+      },
+      "priceCurrency": "ZAR",
+      "price": "15000",
+      "priceRange": "From R15,000 once-off"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-email-sms",
+      "@type": "Service",
+      "name": "Email and SMS Marketing",
+      "serviceType": "Email and SMS marketing",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/email-marketing/",
+      "description": "Campaign strategy, design, automation and reporting to grow revenue from an existing database, including high-open-rate bulk SMS campaigns.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-email-sms"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R4,500 per month",
+          "unitText": "ZAR"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Included work",
+          "value": "Campaign strategy, design, automation and reporting"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "VAT",
+          "value": "Excluded"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-email-sms",
+      "@type": "Offer",
+      "name": "Email and SMS Marketing from R4,500 per month",
+      "url": "https://www.juicydesigns.co.za/services/email-marketing/",
+      "description": "Email and SMS campaigns, automation and reporting; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-email-sms"
+      },
+      "priceCurrency": "ZAR",
+      "price": "4500",
+      "priceRange": "From R4,500 per month"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-logo-identity",
+      "@type": "Service",
+      "name": "Logo and Brand Identity Design",
+      "serviceType": "Logo and brand identity design",
+      "category": "Design and branding",
+      "url": "https://www.juicydesigns.co.za/services/branding/",
+      "description": "Logo design, colour palettes, typography systems and brand guidelines for a visual identity.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-logo-identity"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Deliverables",
+          "value": "Logo design, colour palettes, typography systems and brand guidelines"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-logo-identity",
+      "@type": "Offer",
+      "name": "Logo and Brand Identity Design",
+      "url": "https://www.juicydesigns.co.za/services/branding/",
+      "description": "Logo design and visual identity design service.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-logo-identity"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-content-social",
+      "@type": "Service",
+      "name": "Content and Social Media",
+      "serviceType": "Content and social media management",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/social-media-marketing/",
+      "description": "Social-media strategy, content production, community management and audience growth for engaged communities and real conversations.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-content-social"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Included work",
+          "value": "Strategy, content production, community management and audience growth"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-content-social",
+      "@type": "Offer",
+      "name": "Content and Social Media",
+      "url": "https://www.juicydesigns.co.za/services/social-media-marketing/",
+      "description": "Content production, social strategy, community management and audience-growth service.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-content-social"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-paid-social",
+      "@type": "Service",
+      "name": "Paid Social Advertising",
+      "serviceType": "Paid social advertising",
+      "category": "Paid advertising",
+      "url": "https://www.juicydesigns.co.za/services/facebook-ads-south-africa/",
+      "description": "Meta, TikTok and LinkedIn paid-advertising campaigns optimised for return on ad spend.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-paid-social"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Platforms",
+          "value": "Meta, TikTok and LinkedIn"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Optimisation focus",
+          "value": "Return on ad spend"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-paid-social",
+      "@type": "Offer",
+      "name": "Paid Social Advertising",
+      "url": "https://www.juicydesigns.co.za/services/facebook-ads-south-africa/",
+      "description": "Paid social campaigns on Meta, TikTok and LinkedIn optimised for ROAS.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-paid-social"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-lead-generation",
+      "@type": "Service",
+      "name": "Lead Generation",
+      "serviceType": "Lead generation",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/lead-generation/",
+      "description": "Lead-generation systems using landing pages, CRM integration, email nurture and conversion funnels.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-lead-generation"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Included work",
+          "value": "Landing pages, CRM integration, email nurture and conversion funnels"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-lead-generation",
+      "@type": "Offer",
+      "name": "Lead Generation",
+      "url": "https://www.juicydesigns.co.za/services/lead-generation/",
+      "description": "Lead-generation service using landing pages, CRM integration, nurture and conversion funnels.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-lead-generation"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-digital-strategy",
+      "@type": "Service",
+      "name": "Digital Marketing Strategy",
+      "serviceType": "Digital marketing strategy",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/marketing-strategy/",
+      "description": "Full-funnel digital strategy built around business goals, covering strategy through execution under one roof.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-digital-strategy"
+      }
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-digital-strategy",
+      "@type": "Offer",
+      "name": "Digital Marketing Strategy",
+      "url": "https://www.juicydesigns.co.za/services/marketing-strategy/",
+      "description": "Full-funnel strategy built around business goals.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-digital-strategy"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-graphic-design",
+      "@type": "Service",
+      "name": "Graphic Design",
+      "serviceType": "Graphic design",
+      "category": "Design and branding",
+      "url": "https://www.juicydesigns.co.za/services/graphic-design/",
+      "description": "Print, digital and campaign design that stands out, with on-brand visuals for every platform and format.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-graphic-design"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Formats",
+          "value": "Print, digital and campaign design"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-graphic-design",
+      "@type": "Offer",
+      "name": "Graphic Design",
+      "url": "https://www.juicydesigns.co.za/services/graphic-design/",
+      "description": "On-brand print, digital and campaign design.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-graphic-design"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-print-design",
+      "@type": "Service",
+      "name": "Print Design",
+      "serviceType": "Print design",
+      "category": "Design and branding",
+      "url": "https://www.juicydesigns.co.za/services/graphic-design/",
+      "description": "Print design within Juicy Designs' print, digital and campaign-design offering.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-print-design"
+      }
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-print-design",
+      "@type": "Offer",
+      "name": "Print Design",
+      "url": "https://www.juicydesigns.co.za/services/graphic-design/",
+      "description": "Print design service.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-print-design"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-marketing-collateral",
+      "@type": "Service",
+      "name": "Marketing Collateral Design",
+      "serviceType": "Marketing collateral design",
+      "category": "Design and branding",
+      "url": "https://www.juicydesigns.co.za/services/graphic-design/",
+      "description": "Business cards, flyers, banners and marketing collateral for business promotion.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-marketing-collateral"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Collateral types",
+          "value": "Business cards, flyers, banners and marketing collateral"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-marketing-collateral",
+      "@type": "Offer",
+      "name": "Marketing Collateral Design",
+      "url": "https://www.juicydesigns.co.za/services/graphic-design/",
+      "description": "Design of business cards, flyers, banners and marketing collateral.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-marketing-collateral"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-merchandise",
+      "@type": "Service",
+      "name": "Branded Merchandise",
+      "serviceType": "Branded merchandise",
+      "category": "Design and branding",
+      "url": "https://www.juicydesigns.co.za/services/graphic-design/",
+      "description": "Branded merchandise designed to keep a business top of mind.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-merchandise"
+      }
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-merchandise",
+      "@type": "Offer",
+      "name": "Branded Merchandise",
+      "url": "https://www.juicydesigns.co.za/services/graphic-design/",
+      "description": "Branded merchandise service.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-merchandise"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-gbp",
+      "@type": "Service",
+      "name": "Google Business Profile Setup and Optimisation",
+      "serviceType": "Local SEO and Google Business Profile optimisation",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/google-business-profile-setup/",
+      "description": "Google Business Profile setup and optimisation to rank in Google Maps results.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-gbp"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Purpose",
+          "value": "Rank in Google Maps results"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Starting price",
+          "value": "R3,500 once-off",
+          "unitText": "ZAR"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-gbp",
+      "@type": "Offer",
+      "name": "Google Business Profile Setup from R3,500 once-off",
+      "url": "https://www.juicydesigns.co.za/services/google-business-profile-setup/",
+      "description": "Google Business Profile setup and optimisation for Google Maps visibility; prices are indicative and exclude VAT.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-gbp"
+      },
+      "priceCurrency": "ZAR",
+      "price": "3500",
+      "priceRange": "From R3,500 once-off"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-display",
+      "@type": "Service",
+      "name": "Google Display Advertising",
+      "serviceType": "Display advertising",
+      "category": "Paid advertising",
+      "url": "https://www.juicydesigns.co.za/services/google-ads/",
+      "description": "Visual banner campaigns across the Google Display Network.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-display"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Network",
+          "value": "Google Display Network"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-display",
+      "@type": "Offer",
+      "name": "Google Display Advertising",
+      "url": "https://www.juicydesigns.co.za/services/google-ads/",
+      "description": "Visual banner advertising across the Google Display Network.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-display"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-influencer",
+      "@type": "Service",
+      "name": "Influencer Marketing",
+      "serviceType": "Influencer marketing",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/influencer-marketing/",
+      "description": "Authentic influencer partnerships designed to grow brand trust.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-influencer"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Focus",
+          "value": "Authentic influencer partnerships and brand trust"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-influencer",
+      "@type": "Offer",
+      "name": "Influencer Marketing",
+      "url": "https://www.juicydesigns.co.za/services/influencer-marketing/",
+      "description": "Influencer partnerships that grow brand trust.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-influencer"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-ugc",
+      "@type": "Service",
+      "name": "User-Generated Content Advertising",
+      "serviceType": "User-generated content marketing",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/facebook-ads-south-africa/",
+      "description": "Creator content built to run as paid social ads, including on-site creator proof intended to lift conversions.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-ugc"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Use case",
+          "value": "Creator content built to run as paid social ads"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Conversion element",
+          "value": "On-site creator proof that lifts conversions"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-ugc",
+      "@type": "Offer",
+      "name": "User-Generated Content Advertising",
+      "url": "https://www.juicydesigns.co.za/services/facebook-ads-south-africa/",
+      "description": "Creator content for paid social advertising and on-site creator proof.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-ugc"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-tiktok-shop",
+      "@type": "Service",
+      "name": "TikTok Shop and Social Selling",
+      "serviceType": "Social commerce marketing",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/tiktok-advertising-south-africa/",
+      "description": "Creator-led TikTok Shop and social-selling campaigns.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-tiktok-shop"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Platform",
+          "value": "TikTok Shop"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Approach",
+          "value": "Creator-led social selling"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-tiktok-shop",
+      "@type": "Offer",
+      "name": "TikTok Shop and Social Selling",
+      "url": "https://www.juicydesigns.co.za/services/tiktok-advertising-south-africa/",
+      "description": "Creator-led TikTok Shop and social-selling service.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-tiktok-shop"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-pr",
+      "@type": "Service",
+      "name": "Public Relations",
+      "serviceType": "Public relations",
+      "category": "Marketing communications",
+      "url": "https://www.juicydesigns.co.za/services/pr-agency-south-africa/",
+      "description": "Strategic public relations intended to build brand authority and media coverage.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-pr"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Focus",
+          "value": "Brand authority and media coverage"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-pr",
+      "@type": "Offer",
+      "name": "Public Relations",
+      "url": "https://www.juicydesigns.co.za/services/pr-agency-south-africa/",
+      "description": "Strategic PR for brand authority and media coverage.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-pr"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-programmatic",
+      "@type": "Service",
+      "name": "Programmatic and Digital Out-of-Home Advertising",
+      "serviceType": "Programmatic advertising",
+      "category": "Paid advertising",
+      "url": "https://www.juicydesigns.co.za/services/dooh-programmatic-advertising-south-africa/",
+      "description": "Digital out-of-home and programmatic advertising buying at scale, using automated, data-driven buying across premium inventory.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-programmatic"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Channels",
+          "value": "Digital out-of-home and programmatic advertising"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Buying method",
+          "value": "Automated, data-driven ad buying across premium inventory"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-programmatic",
+      "@type": "Offer",
+      "name": "Programmatic and Digital Out-of-Home Advertising",
+      "url": "https://www.juicydesigns.co.za/services/dooh-programmatic-advertising-south-africa/",
+      "description": "Automated programmatic and digital out-of-home ad buying across premium inventory.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-programmatic"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-content-marketing",
+      "@type": "Service",
+      "name": "Content Marketing",
+      "serviceType": "Content marketing",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/content-marketing/",
+      "description": "Content strategy and content production supporting search visibility, social-media marketing and audience engagement.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-content-marketing"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Included work",
+          "value": "Content strategy and content production"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-content-marketing",
+      "@type": "Offer",
+      "name": "Content Marketing",
+      "url": "https://www.juicydesigns.co.za/services/content-marketing/",
+      "description": "Content strategy and production service.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-content-marketing"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-cro",
+      "@type": "Service",
+      "name": "Conversion Rate Optimisation",
+      "serviceType": "Conversion rate optimisation",
+      "category": "Digital marketing",
+      "url": "https://www.juicydesigns.co.za/services/conversion-rate-optimisation/",
+      "description": "Conversion optimisation focused on measuring leads, conversions, cost per acquisition and revenue, including A/B testing and web-form optimisation.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-cro"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Measurement focus",
+          "value": "Leads, conversions, cost per acquisition and revenue"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Methods mentioned",
+          "value": "A/B testing and web-form optimisation"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-cro",
+      "@type": "Offer",
+      "name": "Conversion Rate Optimisation",
+      "url": "https://www.juicydesigns.co.za/services/conversion-rate-optimisation/",
+      "description": "Conversion optimisation and testing service.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-cro"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-landing-pages",
+      "@type": "Service",
+      "name": "Landing Page Design",
+      "serviceType": "Landing page design",
+      "category": "Design and development",
+      "url": "https://www.juicydesigns.co.za/services/conversion-rate-optimisation/",
+      "description": "High-converting landing-page design intended to turn clicks into leads.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-landing-pages"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Purpose",
+          "value": "Turn clicks into leads"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-landing-pages",
+      "@type": "Offer",
+      "name": "Landing Page Design",
+      "url": "https://www.juicydesigns.co.za/services/conversion-rate-optimisation/",
+      "description": "High-converting landing-page design service.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-landing-pages"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-website-ai-seo",
+      "@type": "Service",
+      "name": "Website Optimisation for Google and AI Search",
+      "serviceType": "Website SEO and AI-search optimisation",
+      "category": "Design and development",
+      "url": "https://www.juicydesigns.co.za/services/ai-ready-website-design/",
+      "description": "Fast, structured websites built for Google and AI search, including optimisation for Google AI Overviews and AI Mode search results.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-website-ai-seo"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Search targets",
+          "value": "Google, Google AI Overviews and AI Mode search results"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Website characteristics",
+          "value": "Fast and structured"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-website-ai-seo",
+      "@type": "Offer",
+      "name": "Website Optimisation for Google and AI Search",
+      "url": "https://www.juicydesigns.co.za/services/ai-ready-website-design/",
+      "description": "Website optimisation for Google, AI Overviews and AI Mode.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-website-ai-seo"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#service-web-apps",
+      "@type": "Service",
+      "name": "Custom Web Applications and Internal Tools",
+      "serviceType": "Custom web application development",
+      "category": "Design and development",
+      "url": "https://www.juicydesigns.co.za/services/web-app-development/",
+      "description": "Custom web applications and internal tools built to scale.",
+      "provider": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "brand": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "South Africa"
+        }
+      ],
+      "offers": {
+        "@id": "https://www.juicydesigns.co.za/#offer-web-apps"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Deliverables",
+          "value": "Custom web applications and internal tools"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Scalability",
+          "value": "Built to scale"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-web-apps",
+      "@type": "Offer",
+      "name": "Custom Web Applications and Internal Tools",
+      "url": "https://www.juicydesigns.co.za/services/web-app-development/",
+      "description": "Custom web applications and internal tools built to scale.",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "itemOffered": {
+        "@id": "https://www.juicydesigns.co.za/#service-web-apps"
+      },
+      "priceCurrency": "ZAR"
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-starter",
+      "@type": "Offer",
+      "name": "Starter Package",
+      "url": "https://www.juicydesigns.co.za/pricing/",
+      "price": "6000",
+      "priceRange": "R6,000 per month",
+      "priceCurrency": "ZAR",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "description": "Monthly package for small businesses, startups and local businesses ready to build a consistent online presence. Includes social media management for two platforms, content calendar and scheduling, community management and a monthly performance report."
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-growth",
+      "@type": "Offer",
+      "name": "Growth Package",
+      "url": "https://www.juicydesigns.co.za/pricing/",
+      "price": "15000",
+      "priceRange": "R15,000 per month",
+      "priceCurrency": "ZAR",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "description": "Monthly package for scaling SMEs and ecommerce businesses. Includes everything in Starter, paid social ads management, Google Ads management, weekly reporting and insights, and a monthly strategy call."
+    },
+    {
+      "@id": "https://www.juicydesigns.co.za/#offer-premium",
+      "@type": "Offer",
+      "name": "Premium Package",
+      "url": "https://www.juicydesigns.co.za/pricing/",
+      "price": "25000",
+      "priceRange": "R25,000 per month",
+      "priceCurrency": "ZAR",
+      "seller": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "description": "Monthly full-funnel performance-marketing package for established brands and franchises. Includes everything in Growth, a full SEO programme and content, advanced reporting dashboards, priority support, weekly calls and a dedicated strategist."
+    }
+  ]
+}

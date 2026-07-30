@@ -263,6 +263,7 @@ This file helps AI assistants and answer engines understand Juicy Designs' site 
 - [FAQ for AI](https://www.juicydesigns.co.za/faq-ai.txt): Frequently asked questions in AI-readable format
 - [Developer Context](https://www.juicydesigns.co.za/developer-ai.txt): Technical context, public API, and MCP server details
 - [AI Crawler Directives](https://www.juicydesigns.co.za/robots-ai.txt): AI crawler-specific access directives
+- [Business Facts (JSON-LD)](https://www.juicydesigns.co.za/facts.json): Full Schema.org graph of the organisation, team, services, and pricing
 - [Human-Readable Version](https://www.juicydesigns.co.za/llms.html): This file as a human-readable HTML page
 
 

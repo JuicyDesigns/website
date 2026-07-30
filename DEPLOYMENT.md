@@ -22,6 +22,7 @@ this repo), so these files must be uploaded to the site's document root
 | `faq-ai.txt` | Q&A optimised for AI consumption | `text/plain; charset=utf-8` |
 | `developer-ai.txt` | Public API / MCP server context | `text/plain; charset=utf-8` |
 | `robots-ai.txt` | AI crawler-specific directives | `text/plain; charset=utf-8` |
+| `facts.json` | Full Schema.org JSON-LD graph (org, team, services, pricing) | `application/json; charset=utf-8` |
 
 ## Recommended .htaccess additions
 
