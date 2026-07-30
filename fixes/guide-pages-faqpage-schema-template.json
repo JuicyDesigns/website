@@ -1,0 +1,17 @@
+{
+  "_instructions": "FIX for guide pages that show visible FAQ content without FAQPage markup (e.g. /guides/branding/). For each guide page: copy the visible on-page FAQ questions and answers into this template VERBATIM (Google requires the schema text to match the visible text), replace the example pair below, set the @id to the page URL, and paste as a <script type='application/ld+json'> tag. Only add this where FAQs are actually visible on the page. Delete this _instructions key before deploying.",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.juicydesigns.co.za/guides/REPLACE-SLUG/#faq",
+  "inLanguage": "en-ZA",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "REPLACE with the exact question heading shown on the page?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "REPLACE with the exact visible answer text from the page."
+      }
+    }
+  ]
+}

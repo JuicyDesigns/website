@@ -358,3 +358,5 @@ Yes. Vaseline's 'Mtana ka Gogo' launched as a social media execution with no lar
 - [Best Digital Campaign Agencies in SA 2026 | Juicy Designs](https://www.juicydesigns.co.za/blog/best-digital-campaign-agencies-south-africa-2026/)
 - [Social media ads in South Africa: a practical guide](https://www.juicydesigns.co.za/blog/social-media-ads-south-africa/)
 - [Influencer Marketing in South Africa | Juicy Designs](https://www.juicydesigns.co.za/blog/influencer-marketing-south-africa/)
+- [Social Media Marketing in South Africa: Complete Guide](https://www.juicydesigns.co.za/guides/social-media-marketing-south-africa/)
+- [Where to Advertise Your Business in South Africa](https://www.juicydesigns.co.za/blog/where-to-advertise-your-business-south-africa/)

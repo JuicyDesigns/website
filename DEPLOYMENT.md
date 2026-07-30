@@ -54,6 +54,30 @@ done
 All files should return `200`. Cloudflare caches these paths for ~2 minutes, so
 changes appear almost immediately.
 
+## Audit roadmap implementation status (30 July 2026)
+
+Done in this repo (live once uploaded / published):
+
+- [x] AI discovery files + facts.json (root of repo)
+- [x] Five optimised blog articles with schema and hero images (`blog/`, `images/blog/`)
+- [x] Internal links from the new articles into striking-distance URLs
+- [x] Guide-page schema fixes, ready to paste (`fixes/guide-pages-author-schema.json`, `fixes/guide-pages-faqpage-schema-template.json`)
+- [x] Facebook-ads-cost refresh pack (`fixes/facebook-ads-cost-refresh.md`)
+- [x] Top-brands refresh brief (`fixes/top-brands-refresh-brief.md`)
+- [x] Internal-links map + Pretoria intent split + URL consolidation flag (`fixes/internal-links-map.md`)
+- [x] IndexNow key file (`f8de394f2aad92206d1d54f590c498a4.txt`), submit script, and 384-URL list (`scripts/`)
+
+Needs an account owner (cannot be done from the repo):
+
+- [ ] Upload everything above to `public_html/` and run the verification script
+- [ ] GSC request-indexing schedule, days 1-19 (spreadsheet delivered 30 July)
+- [ ] Register site in Bing Webmaster Tools, then run `scripts/indexnow-submit.sh scripts/indexnow-urls.txt`
+- [ ] Apply the fixes/ packs to the live WordPress pages
+- [ ] 301 `/services/search-engine-optimisation/` → `/services/seo/`
+- [ ] Create the Wikidata item for Juicy Designs (Pty) Ltd
+- [ ] Benchmarks citation outreach + client partner-page link programme
+- [ ] Enable Ubersuggest tracked AI prompts (20 unused slots) and approve the gated connector tools
+
 ## Keeping files in sync
 
 `llms.txt` is canonical. When facts change (address, phone, services, team),

@@ -322,3 +322,4 @@ Expect a cold-start period of 24 to 48 hours for Google to index your site and p
 - [How Google Ads work in South Africa: 2026 guide | Juicy Designs](https://www.juicydesigns.co.za/blog/how-google-ads-work-in-south-africa-2026-guide/)
 - [Meta Ads in South Africa: A Complete 2026 Guide | Juicy Designs](https://www.juicydesigns.co.za/blog/meta-ads-guide-south-africa/)
 - [Google Shopping Ads: Setup Guide for SA Stores | Juicy Designs](https://www.juicydesigns.co.za/blog/google-shopping-ads-setup-guide/)
+- [How Much Do Google Ads Cost in South Africa?](https://www.juicydesigns.co.za/blog/google-ads-cost-south-africa/)

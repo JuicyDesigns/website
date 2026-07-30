@@ -1,0 +1,33 @@
+{
+  "_instructions": "FIX for the dangling author reference on /guides/ pages. Each guide page's Article schema has author {'@id': '.../team/...#person'} but the Person node is not defined on the page, so Google cannot resolve it. Paste this @graph block into every guide page (one <script type='application/ld+json'> tag). The @ids match the site's existing team-page nodes, so nothing else needs to change. Delete this _instructions key before deploying.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/#person",
+      "name": "Cobus van der Westhuizen",
+      "jobTitle": "Co-founder & CEO",
+      "url": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/",
+      "worksFor": { "@id": "https://www.juicydesigns.co.za/#organization" },
+      "knowsAbout": ["Google Ads", "SEO", "Digital Marketing", "Lead Generation", "Data Analytics"],
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Google Ads Search Certified" },
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Google Analytics Certified" }
+      ],
+      "sameAs": ["https://www.linkedin.com/in/cobus-van-der-westhuizen-2610ba63"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/#person",
+      "name": "Wynand van der Westhuizen",
+      "jobTitle": "Co-founder & Creative Director",
+      "url": "https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/",
+      "worksFor": { "@id": "https://www.juicydesigns.co.za/#organization" },
+      "knowsAbout": ["Branding", "Web Design", "Social Media Marketing", "Creative Strategy", "Content Production"],
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Meta Business Partner" }
+      ],
+      "sameAs": ["https://www.linkedin.com/in/wynandvdwesthuizen/"]
+    }
+  ]
+}

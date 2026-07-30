@@ -261,3 +261,5 @@ Juicy Designs runs integrated event marketing campaigns covering Google Ads, pai
 - [Digital marketing in South Africa: 2026 guide | Juicy Designs](https://www.juicydesigns.co.za/blog/digital-marketing-south-africa-guide/)
 - [Digital Marketing Foundations in South Africa | Juicy Designs](https://www.juicydesigns.co.za/blog/digital-marketing-foundations-trends-ai-privacy-south-africa/)
 - [Digital marketing services South Africa | Juicy Designs](https://www.juicydesigns.co.za/blog/digital-marketing-services-south-africa/)
+- [Social Media Marketing in South Africa: Complete Guide](https://www.juicydesigns.co.za/guides/social-media-marketing-south-africa/)
+- [How Much Do Facebook Ads Cost in South Africa?](https://www.juicydesigns.co.za/blog/facebook-ads-cost-south-africa/)

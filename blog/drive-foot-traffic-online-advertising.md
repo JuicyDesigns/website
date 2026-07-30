@@ -119,3 +119,5 @@ Google Search Ads and social media campaigns can generate measurable store visit
 - [Advertising in South Africa: a 2026 guide | Juicy Designs](https://www.juicydesigns.co.za/blog/advertising-in-south-africa-guide/)
 - [Pay-Per-Click (PPC) and Paid Advertising in South Africa](https://www.juicydesigns.co.za/blog/ppc-paid-advertising-south-africa/)
 - [Retail Google Shopping Ads in South Africa | Juicy Designs](https://www.juicydesigns.co.za/blog/how-to-run-retail-google-shopping-ads-in-south-africa/)
+- [How Much Do Facebook Ads Cost in South Africa?](https://www.juicydesigns.co.za/blog/facebook-ads-cost-south-africa/)
+- [Google Business Profile Setup & Optimisation](https://www.juicydesigns.co.za/services/google-business-profile-setup/)

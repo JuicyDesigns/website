@@ -243,3 +243,5 @@ Juicy Designs clients achieve an average ROAS of 4.8x, which is nearly double th
 - [How to Measure Social Media ROI in South Africa | Juicy Designs](https://www.juicydesigns.co.za/blog/measure-social-media-roi-south-africa/)
 - [Digital marketing in South Africa: 2026 guide | Juicy Designs](https://www.juicydesigns.co.za/blog/digital-marketing-south-africa-guide/)
 - [How to Create a Social Media Marketing Plan in SA](https://www.juicydesigns.co.za/blog/social-media-strategy-plan-south-africa/)
+- [Social Media Marketing in South Africa: Complete Guide](https://www.juicydesigns.co.za/guides/social-media-marketing-south-africa/)
+- [How Much Do Facebook Ads Cost in South Africa?](https://www.juicydesigns.co.za/blog/facebook-ads-cost-south-africa/)
