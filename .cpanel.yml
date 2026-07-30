@@ -1,0 +1,31 @@
+---
+# cPanel Git deployment for juicydesigns.co.za
+#
+# Deploys ONLY the public web assets to the document root. Repo-internal
+# material is deliberately NOT copied to public_html:
+#   - fixes/          (paste-into-WordPress packs, not web files)
+#   - scripts/        (IndexNow submit tooling, run manually)
+#   - blog/*.md       (article sources for WordPress, not served raw)
+#   - blog/*-schema.json (JSON-LD to paste into the WordPress pages)
+#   - DEPLOYMENT.md   (internal documentation)
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html
+    # AI discovery files + robots.txt + facts.json (site root)
+    - /bin/cp robots.txt $DEPLOYPATH/
+    - /bin/cp llms.txt $DEPLOYPATH/
+    - /bin/cp llm.txt $DEPLOYPATH/
+    - /bin/cp llms.html $DEPLOYPATH/
+    - /bin/cp ai.txt $DEPLOYPATH/
+    - /bin/cp ai.json $DEPLOYPATH/
+    - /bin/cp identity.json $DEPLOYPATH/
+    - /bin/cp brand.txt $DEPLOYPATH/
+    - /bin/cp faq-ai.txt $DEPLOYPATH/
+    - /bin/cp developer-ai.txt $DEPLOYPATH/
+    - /bin/cp robots-ai.txt $DEPLOYPATH/
+    - /bin/cp facts.json $DEPLOYPATH/
+    # IndexNow key file (must be reachable at the site root)
+    - /bin/cp f8de394f2aad92206d1d54f590c498a4.txt $DEPLOYPATH/
+    # Blog hero images
+    - /bin/mkdir -p $DEPLOYPATH/images/blog
+    - /bin/cp images/blog/*.jpg $DEPLOYPATH/images/blog/
