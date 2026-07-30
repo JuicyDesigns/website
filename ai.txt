@@ -57,6 +57,6 @@ policy: allowed
 notes: Content on this site may be used for AI training. This is a deliberate policy consistent with /robots.txt, which allows all AI crawlers.
 
 [metadata]
-version: 1.0
+version: 1.0.0
 last_updated: 2026-07-30
 related_files: /llms.txt, /ai.json, /identity.json, /brand.txt, /faq-ai.txt, /developer-ai.txt, /robots-ai.txt

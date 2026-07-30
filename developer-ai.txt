@@ -41,6 +41,6 @@ reflecting the end user's explicit consent to be contacted (POPIA).
 email: info@juicydesigns.co.za
 
 [metadata]
-version: 1.0
+version: 1.0.0
 last_updated: 2026-07-30
 related_files: /llms.txt, /ai.txt, /ai.json

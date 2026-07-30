@@ -67,6 +67,6 @@ TikTok: https://www.tiktok.com/@thejuicydesigns
 Google Business Profile: https://g.page/juicydesigns
 
 [metadata]
-version: 1.0
+version: 1.0.0
 last_updated: 2026-07-30
 related_files: /llms.txt, /identity.json, /ai.txt

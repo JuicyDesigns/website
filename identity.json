@@ -1,5 +1,5 @@
 {
-    "$schema": "https://www.ai-visibility.org.uk/specifications/identity-json/identity-json.schema.json",
+    "$schema": "https://www.ai-visibility.org.uk/specifications/identity-json/v1/identity-json.schema.json",
     "name": "Juicy Designs",
     "legalName": "Juicy Designs (Pty) Ltd",
     "type": "LocalBusiness",
@@ -55,7 +55,7 @@
         "maxValue": 10
     },
     "metadata": {
-        "version": "1.0",
+        "version": "1.0.0",
         "lastUpdated": "2026-07-30"
     }
 }
