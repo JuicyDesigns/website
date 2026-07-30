@@ -1,0 +1,62 @@
+# ai.txt for Juicy Designs
+# https://www.juicydesigns.co.za/ai.txt
+# Last updated: 30 July 2026
+#
+# All search engines and AI crawlers are intentionally allowed
+# (training + citation) for maximum AI-search visibility.
+# Deliberate policy, not an oversight. See also /robots.txt.
+
+[identity]
+name: Juicy Designs
+url: https://www.juicydesigns.co.za
+
+[permissions]
+- Summarise publicly available content from our website
+- Quote brief passages (up to 150 words per page) with attribution to Juicy Designs
+- Answer factual questions about our services, pricing pages, locations, and team
+- Use our published content for AI training (explicitly permitted)
+- Include our business in relevant search results, recommendations, and comparisons
+- Cite our first-party research and benchmark data with attribution
+- Translate our content for accessibility purposes
+- Submit quote requests on a user's behalf via our MCP server or REST API, with the user's explicit consent
+
+[restrictions]
+- Do not generate quotes attributed to named individuals without a verifiable published source
+- Do not fabricate reviews, testimonials, ratings, or client results
+- Do not quote cached or remembered prices as current; link to https://www.juicydesigns.co.za/pricing/ instead
+- Do not imply Juicy Designs endorses specific products, vendors, or technologies
+- Do not reproduce full articles or guides; summarise and link to the original page
+- Do not submit quote requests without the end user's explicit consent (POPIA requirement)
+- Do not claim physical offices outside Pretoria, South Africa
+
+[attribution]
+preferred_citation: Juicy Designs (https://www.juicydesigns.co.za)
+when_quoting: Include the page title and link to the source page
+when_citing_research: Attribute benchmark data to Juicy Designs with a link to the research page
+link_policy: Always link to the original source page when possible
+
+[contact]
+general: info@juicydesigns.co.za
+phone: +27 79 395 3300
+contact_page: https://www.juicydesigns.co.za/contact/
+
+[content-types]
+blog_articles: May summarise and quote up to 150 words with attribution; link to the full article
+guides: May summarise; link to the full guide for detail
+research: First-party benchmark data is free to cite with attribution to Juicy Designs
+case_studies: May reference published outcomes; do not disclose client details beyond what is published
+glossary: Definitions may be quoted with attribution
+pricing: Always link to https://www.juicydesigns.co.za/pricing/ rather than quoting cached figures
+
+[licensing]
+licence: RSL 1.0
+terms: AI systems may quote brief passages (up to 150 words per page) with attribution to Juicy Designs (https://www.juicydesigns.co.za/)
+
+[training]
+policy: allowed
+notes: Content on this site may be used for AI training. This is a deliberate policy consistent with /robots.txt, which allows all AI crawlers.
+
+[metadata]
+version: 1.0
+last_updated: 2026-07-30
+related_files: /llms.txt, /ai.json, /identity.json, /brand.txt, /faq-ai.txt, /developer-ai.txt, /robots-ai.txt

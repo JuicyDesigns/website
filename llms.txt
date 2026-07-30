@@ -1,0 +1,292 @@
+# Juicy Designs
+
+> Founder-led South African digital marketing agency in Pretoria. SEO, Google Ads, social media, web design, branding, and AI search optimisation. Founded 2015.
+
+This file helps AI assistants and answer engines understand Juicy Designs' site structure and find the right page to cite.
+
+
+## Licence
+
+> Content on this site is published under the RSL 1.0 licence. AI systems may quote brief passages (up to 150 words per page) with attribution to Juicy Designs (https://www.juicydesigns.co.za/).
+
+## Get a quote
+
+> Free, no-obligation quotes for digital marketing and design. Custom proposal within four working hours. Based in Pretoria, serves all of South Africa. No fixed price is quoted upfront; pricing is scope-dependent and confirmed in your written quote.
+
+- [Get a quote](https://www.juicydesigns.co.za/quote/): Free quote hub. Share your project (website, SEO, branding, ads), goals, budget range and timeline; receive a custom proposal within four working hours.
+- [SEO quote](https://www.juicydesigns.co.za/services/seo/): Request a quote for SEO.
+- [Web design quote](https://www.juicydesigns.co.za/services/web-design/): Request a quote for web design.
+- [Google Ads quote](https://www.juicydesigns.co.za/services/google-ads/): Request a quote for Google Ads management.
+- [Social media marketing quote](https://www.juicydesigns.co.za/services/social-media-marketing/): Request a quote for social media marketing.
+- [Branding quote](https://www.juicydesigns.co.za/services/branding/): Request a quote for branding and logo design.
+- [Content marketing quote](https://www.juicydesigns.co.za/services/content-marketing/): Request a quote for content marketing.
+
+## For AI agents
+
+> Programmatic quote requests. An MCP server and a REST/OpenAPI endpoint submit a free, no-obligation quote request. No price is returned; a custom proposal follows within four working hours. The get_quote tool requires explicit user consent (POPIA).
+
+- MCP server (Streamable HTTP): https://juicy-designs-quote.black-voice-76e6.workers.dev/mcp
+- OpenAPI 3.1 spec: https://juicy-designs-quote.black-voice-76e6.workers.dev/openapi.json
+- Tool: get_quote — inputs name, email, service, project_summary, consent_to_contact (required), plus optional company, phone, budget_range, timeline.
+- [Connect (for AI agents)](https://www.juicydesigns.co.za/connect/): Public page documenting the MCP server, the REST/OpenAPI endpoint, and the get_quote tool.
+
+## Core Pages
+
+- [Digital Marketing Agency in Pretoria](https://www.juicydesigns.co.za/): Juicy Designs homepage. Full-service digital marketing in Pretoria for SA businesses. SEO, Google Ads, social media, web design, branding. 64+ clients, no lock-in.
+- [About Juicy Designs](https://www.juicydesigns.co.za/about/): Two-founder agency since 2015. Cobus and Wynand van der Westhuizen run every campaign themselves. 4.8x average ROAS, 4.9-star Google rating, 214 reviews.
+- [Why Choose Juicy Designs](https://www.juicydesigns.co.za/why-choose-us/): Founder-led delivery, no long-term contracts, in-house Pretoria team, average 4.8x ROAS. Reasons to choose Juicy Designs over a larger agency.
+- [Pricing](https://www.juicydesigns.co.za/pricing/): Transparent South African pricing. Website from R12,000, SEO from R5,500/mo, Google Ads from R6,000/mo, ecommerce from R25,000. No lock-in contracts.
+- [Get a Quote](https://www.juicydesigns.co.za/quote/): Request a digital marketing quote for SEO, Google Ads, social media, branding, web design or full-service support in South Africa.
+- [Case Studies & Results](https://www.juicydesigns.co.za/case-studies/): Digital marketing results for 64+ South African clients across automotive, insurance, retail, and entertainment sectors. Average 4.8x ROAS.
+- [Portfolio](https://www.juicydesigns.co.za/portfolio/): Design and digital marketing work for 64+ clients across automotive, entertainment, food and beverage, and industrial sectors in South Africa.
+- [Contact Juicy Designs](https://www.juicydesigns.co.za/contact/): Contact Juicy Designs in Pretoria by call, WhatsApp, or message. Response within 4 hours. Phone: +27 79 395 3300. Email: info@juicydesigns.co.za.
+- [Digital Marketing Blog South Africa](https://www.juicydesigns.co.za/blog/): 170+ practical digital marketing guides covering SEO, Google Ads, social media, ROAS, website costs, TikTok ads, and branding for South African businesses.
+- [Industries We Serve](https://www.juicydesigns.co.za/industries/): Sector-specialist digital marketing for automotive, insurance, legal, retail, entertainment, healthcare, and other industries across South Africa.
+- [Locations We Serve](https://www.juicydesigns.co.za/locations/): Juicy Designs serves Pretoria, Johannesburg, Cape Town, Durban, Centurion, Sandton, Midrand, and other South African cities.
+- [Digital Marketing FAQs](https://www.juicydesigns.co.za/faq/): Frequently asked questions about digital marketing services in Pretoria: pricing, SEO, Google Ads, social media, timelines and what to expect.
+- [Digital Marketing Glossary](https://www.juicydesigns.co.za/glossary/): Plain-English definitions of digital marketing terms. Written by the Juicy Designs team in Pretoria for South African businesses.
+- [Marketing Comparisons](https://www.juicydesigns.co.za/compare/): Compare digital marketing options: SEO vs Google Ads, Facebook vs Google, WordPress vs custom builds, Shopify vs WooCommerce.
+- [Editorial Policy](https://www.juicydesigns.co.za/editorial-policy/): How Juicy Designs researches, writes, reviews, fact-checks, and corrects published content. Team editorial standards and process.
+- [Privacy & Cookies Policy](https://www.juicydesigns.co.za/privacy-cookies-policy/): Privacy and cookies policy for Juicy Designs. POPIA-compliant data handling for South African users.
+- [HTML Sitemap](https://www.juicydesigns.co.za/sitemap/): Complete HTML sitemap listing every service, location, blog article, glossary term, and contact page on the Juicy Designs website.
+
+
+## Team
+
+- [Cobus van der Westhuizen – CEO](https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/): CEO and digital marketing lead at Juicy Designs. Google Ads certified, 15+ years experience. Leads SEO, AEO, and paid search strategy.
+- [Wynand van der Westhuizen – Co-founder & Creative Director](https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/): Co-founder and creative director at Juicy Designs. Meta Business Partner. Reviews published content for accuracy and brand fit.
+- [Lenata Oosthuizen – Content Editor](https://www.juicydesigns.co.za/team/lenata-oosthuizen/): Content editor at Juicy Designs. Fact-checks and edits all published content against primary sources.
+
+
+## Core Services
+
+- [SEO Agency Pretoria](https://www.juicydesigns.co.za/services/seo/): Data-driven SEO in Pretoria. Technical SEO, content strategy, link building, and local SEO. Average 240% traffic growth. From R5,500/mo.
+- [SEO Agency South Africa](https://www.juicydesigns.co.za/services/seo-south-africa/): Nationwide SEO for South African businesses. Technical, on-page, local SEO, link building, and content strategy. No long-term contracts. From R5,500/mo.
+- [Google Ads Management Pretoria](https://www.juicydesigns.co.za/services/google-ads/): Google Search Ads management in Pretoria. Keyword research, ad copy optimisation, and bid management that drives qualified leads and conversions.
+- [Google Ads Management Pretoria (PPC)](https://www.juicydesigns.co.za/services/google-ads-pretoria/): Google Partner certified PPC agency in Pretoria. 47% average cost-per-lead reduction, 3.8x ROAS, R50M+ ad spend managed. From R5,500/mo.
+- [Digital Marketing Agency](https://www.juicydesigns.co.za/services/digital-marketing/): Full-funnel digital marketing in Pretoria. SEO, Google Ads, social media, and content strategy driving measurable growth for South African businesses.
+- [Digital Marketing Agency South Africa](https://www.juicydesigns.co.za/services/digital-marketing-south-africa/): Full-service digital marketing for all of South Africa. SEO, Google Ads, social media, web design, and branding under one roof. From R5,000/mo.
+- [Social Media Marketing Agency Pretoria](https://www.juicydesigns.co.za/services/social-media-marketing/): Social media marketing in Pretoria. Strategy, content, paid campaigns, and community management that grows brands and drives results.
+- [Social Media Marketing Agency South Africa](https://www.juicydesigns.co.za/services/social-media-marketing-south-africa/): Social media marketing across South Africa. Strategy, content creation, paid social, and community management. Founder-led, no lock-in. From R5,000/mo.
+- [Custom Website Design Services](https://www.juicydesigns.co.za/services/web-design/): Custom website design in Pretoria. Mobile-responsive, SEO-ready sites built to convert. 150+ projects delivered. From R15,000.
+- [Web Design Agency South Africa](https://www.juicydesigns.co.za/services/web-design-south-africa/): Custom business websites, WordPress, and ecommerce builds for South Africa. Fast loading and conversion-optimised. From R12,000.
+- [Branding & Logo Design Agency Pretoria](https://www.juicydesigns.co.za/services/branding/): Branding and logo design in Pretoria. Brand identity, logos, brand guidelines, graphic design, and web design. 64+ brands built since 2015.
+- [Brand Strategy & Rebranding Agency South Africa](https://www.juicydesigns.co.za/services/brand-strategy/): Brand strategy, identity, and rebranding for South African businesses. Positioning, visual identity, logo design, and brand guidelines. From R15,000.
+- [AI Search Optimisation South Africa](https://www.juicydesigns.co.za/services/ai-search-optimisation/): AI search optimisation for South African businesses. Get cited by ChatGPT, Google AI Overviews, Perplexity, Gemini, and Bing Copilot via GEO and AEO.
+- [Facebook & Meta Ads Agency South Africa](https://www.juicydesigns.co.za/services/facebook-ads-south-africa/): Facebook, Instagram, and Meta ads for South African businesses. Campaign strategy, creative, audience targeting, Pixel and CAPI tracking. From R6,000/mo.
+- [Content Marketing Agency South Africa](https://www.juicydesigns.co.za/services/content-marketing/): Content marketing for South African businesses. Content strategy, SEO blog content, lead-gen content, and distribution that builds organic growth. From R5,500/mo.
+- [Email Marketing Services](https://www.juicydesigns.co.za/services/email-marketing/): Email marketing campaigns, automation, and newsletters for Pretoria businesses. Trackable ROI. From R2,500/mo.
+- [Lead Generation South Africa](https://www.juicydesigns.co.za/services/lead-generation/): Lead generation for South African businesses. Paid, organic, and conversational systems that fill pipelines with qualified leads. From R7,500/mo.
+- [Local SEO South Africa](https://www.juicydesigns.co.za/services/local-seo/): Google Business Profile optimisation, Google Maps ranking, local citations, and review strategy for South African businesses. From R4,500/mo.
+- [SEO Audit South Africa](https://www.juicydesigns.co.za/services/seo-audit/): Professional SEO audit for South African websites. Technical, on-page, content, backlink, and Core Web Vitals analysis with a prioritised fix list. From R3,500.
+- [Ecommerce Website Design South Africa](https://www.juicydesigns.co.za/services/ecommerce-web-design/): Ecommerce website design for South African businesses. WooCommerce and Shopify stores with PayFast, Yoco, and Stripe. Builds from R25,000.
+- [Google Shopping Ads South Africa](https://www.juicydesigns.co.za/services/google-shopping-ads/): Google Shopping ads management for SA ecommerce and retailers. Merchant Center setup, product feed optimisation, and Performance Max. From R6,000/mo.
+- [PPC Management Agency South Africa](https://www.juicydesigns.co.za/services/ppc-management-south-africa/): Google Ads, Microsoft Ads, and paid search management for South African businesses. Founder-led, no lock-in. From R6,000/mo.
+- [Marketing Analytics & Reporting South Africa](https://www.juicydesigns.co.za/services/analytics-and-reporting/): Marketing analytics and reporting for SA businesses. GA4, GTM, Consent Mode, and plain-language dashboards showing what works. From R4,500/mo.
+- [Conversion Rate Optimisation South Africa](https://www.juicydesigns.co.za/services/conversion-rate-optimisation/): CRO for South African businesses. Funnel research, A/B testing, and landing page optimisation that lifts revenue without more ad spend. From R8,000/mo.
+- [Marketing Strategy South Africa](https://www.juicydesigns.co.za/services/marketing-strategy/): Marketing strategy for South African businesses. Research, positioning, channel planning, and a 12-month roadmap with KPIs. From R15,000/mo.
+- [WordPress Development South Africa](https://www.juicydesigns.co.za/services/wordpress-development/): Custom WordPress website design and development for South African businesses. Fast, secure, SEO-ready. No lock-in. From R18,000.
+- [Website Development Pretoria](https://www.juicydesigns.co.za/services/website-development/): Full-stack website development in Pretoria. Custom code, API integration, CMS builds, and scalable architecture. PageSpeed 90+ as standard. From R18,000.
+- [Website Maintenance South Africa](https://www.juicydesigns.co.za/services/website-maintenance/): Website maintenance for South African businesses. Security, backups, updates, uptime monitoring, and monthly content edits. From R750/mo.
+- [Graphic Design Agency in Pretoria](https://www.juicydesigns.co.za/services/graphic-design/): Creative graphic design in Pretoria. Logos, branding, print, and digital assets. 150+ businesses served. Get a quote.
+- [WhatsApp Marketing South Africa](https://www.juicydesigns.co.za/services/whatsapp-marketing/): POPIA-compliant WhatsApp broadcasts, chatbots, and click-to-WhatsApp ads connected to CRM for South African businesses. From R6,000/mo.
+- [TikTok Advertising South Africa](https://www.juicydesigns.co.za/services/tiktok-advertising-south-africa/): TikTok advertising for South African businesses. Reach Gen Z and millennials with targeted campaigns. Managed by Pretoria's social media team.
+- [Influencer Marketing Services](https://www.juicydesigns.co.za/services/influencer-marketing/): Influencer marketing in Pretoria and across South Africa. Micro to macro campaigns that build brand awareness and drive measurable sales.
+- [PR Agency South Africa](https://www.juicydesigns.co.za/services/pr-agency-south-africa/): PR and communications agency for all of South Africa. Media relations, reputation management, content PR, and crisis comms. Founder-led, no lock-in.
+- [DOOH & Programmatic Advertising South Africa](https://www.juicydesigns.co.za/services/dooh-programmatic-advertising-south-africa/): DOOH and programmatic advertising in South Africa. Digital out-of-home billboard campaigns and AI-driven automated media buying for maximum reach.
+- [Advertising in Pretoria](https://www.juicydesigns.co.za/advertising-pretoria/): Every advertising channel for Pretoria businesses explained: Google Ads, social media ads, programmatic, DOOH, SEO, email, and influencer. Average 4.8x ROAS.
+
+
+
+## AI Search Services
+
+- [AI Search Services Hub](https://www.juicydesigns.co.za/services/ai-search-services/): Full overview of Juicy Designs AI search, AEO, GEO, and AI-ready web services.
+- [AI-Ready Website Design](https://www.juicydesigns.co.za/services/ai-ready-website-design/): Fast, structured sites built to rank on Google and be cited by AI assistants. From R8,500.
+- [AI Search Visibility Audit](https://www.juicydesigns.co.za/services/ai-search-visibility-audit/): Audit whether AI assistants can find and cite your business. From R3,500.
+- [Google Business Profile Setup](https://www.juicydesigns.co.za/services/google-business-profile-setup/): Optimise your GBP to rank in the Google Maps pack and local search. From R3,500.
+- [Local Landing Pages](https://www.juicydesigns.co.za/local-landing-pages/): Suburb and service area pages that rank locally and in AI local answers. From R3,500.
+- [Web App Development](https://www.juicydesigns.co.za/services/web-app-development/): Custom web apps, portals, and internal tools. From R35,000.
+- [AI Readiness Training](https://www.juicydesigns.co.za/services/ai-readiness-training/): In-person or remote training to get your team using AI tools properly.
+- [Monthly SEO Retainer](https://www.juicydesigns.co.za/services/monthly-seo-retainer/): Ongoing search and AI-visibility work that compounds month on month. From R1,800/mo.
+- [Free AI Readiness Score](https://www.juicydesigns.co.za/services/ai-readiness-score/): 60-second interactive tool scoring how visible your business is to AI search.
+- [AI SEO in South Africa](https://www.juicydesigns.co.za/services/ai-seo-south-africa/): Combined SEO, AEO, and GEO programme for nationwide AI search visibility.
+- [AI SEO in Pretoria](https://www.juicydesigns.co.za/services/ai-seo-pretoria/): AI SEO programme combining Google rankings and AI citation for Pretoria businesses.
+- [AI SEO in Johannesburg](https://www.juicydesigns.co.za/services/ai-seo-johannesburg/): AI SEO programme for Johannesburg and Gauteng businesses.
+- [AI SEO in Cape Town](https://www.juicydesigns.co.za/services/ai-seo-cape-town/): AI SEO programme for Cape Town businesses.
+- [AI SEO in Durban](https://www.juicydesigns.co.za/services/ai-seo-durban/): AI SEO programme for Durban and KZN businesses.
+- [AEO Optimisation South Africa](https://www.juicydesigns.co.za/services/aeo-optimisation-south-africa/): Answer Engine Optimisation to win Google AI Overviews, snippets, and voice search.
+- [AEO Optimisation Pretoria](https://www.juicydesigns.co.za/services/aeo-optimisation-pretoria/): AEO for Pretoria businesses targeting Google AI Overviews and featured snippets.
+- [AEO Optimisation Johannesburg](https://www.juicydesigns.co.za/services/aeo-optimisation-johannesburg/): AEO for Johannesburg businesses.
+- [AEO Optimisation Cape Town](https://www.juicydesigns.co.za/services/aeo-optimisation-cape-town/): AEO for Cape Town businesses.
+- [AEO Optimisation Durban](https://www.juicydesigns.co.za/services/aeo-optimisation-durban/): AEO for Durban businesses.
+- [GEO Optimisation South Africa](https://www.juicydesigns.co.za/services/geo-optimisation-south-africa/): Generative Engine Optimisation to earn citations inside ChatGPT, Gemini, Perplexity, and Copilot.
+- [GEO Optimisation Pretoria](https://www.juicydesigns.co.za/services/geo-optimisation-pretoria/): GEO for Pretoria businesses targeting AI assistant citations.
+- [GEO Optimisation Johannesburg](https://www.juicydesigns.co.za/services/geo-optimisation-johannesburg/): GEO for Johannesburg businesses.
+- [GEO Optimisation Cape Town](https://www.juicydesigns.co.za/services/geo-optimisation-cape-town/): GEO for Cape Town businesses.
+- [GEO Optimisation Durban](https://www.juicydesigns.co.za/services/geo-optimisation-durban/): GEO for Durban businesses.
+## Location Pages
+
+- [Marketing Agency in Pretoria](https://www.juicydesigns.co.za/services/pretoria/): Juicy Designs home base. SEO, web design, Google Ads, social media, branding, and graphic design for Pretoria businesses under one roof.
+- [Marketing Agency in Johannesburg](https://www.juicydesigns.co.za/services/johannesburg/): Full-service marketing agency in Johannesburg. SEO, web design, Google Ads, social media, branding, and graphic design for JHB businesses.
+- [Marketing Agency in Cape Town](https://www.juicydesigns.co.za/services/cape-town/): Full-service Cape Town marketing agency. SEO, web design, Google Ads, social media, branding, and graphic design under one roof.
+- [Marketing Agency in Durban](https://www.juicydesigns.co.za/services/durban/): Full-service marketing agency in Durban and KZN. SEO, web design, Google Ads, social media, and branding for KwaZulu-Natal businesses.
+- [Marketing Agency in Centurion](https://www.juicydesigns.co.za/services/centurion/): Full-service marketing agency in Centurion. SEO, web design, digital marketing, social media, branding, and graphic design under one roof.
+- [Digital Marketing Agency Pretoria](https://www.juicydesigns.co.za/services/digital-marketing-pretoria/): Full-service digital marketing agency in Pretoria. Google Ads, social media, SEO, email, and analytics for Pretoria businesses. From R8,500/mo.
+- [Digital Marketing Agency Johannesburg](https://www.juicydesigns.co.za/services/digital-marketing-johannesburg/): Full-service digital marketing in Johannesburg. Google Ads, SEO, social media, email, and programmatic for JHB businesses. From R9,500/mo.
+- [Digital Marketing Agency Cape Town](https://www.juicydesigns.co.za/services/digital-marketing-cape-town/): Full-service digital marketing for Cape Town businesses. Google Ads, social media, SEO, email, and influencer marketing.
+- [Digital Marketing Agency South Africa](https://www.juicydesigns.co.za/services/digital-marketing-south-africa/): Full-service digital marketing for all of South Africa. SEO, Google Ads, social media, web design, and branding under one roof. From R5,000/mo.
+- [SEO Agency Pretoria](https://www.juicydesigns.co.za/services/seo-pretoria/): SEO in Pretoria. Local SEO, technical audits, on-page optimisation, and link building. Average 64% traffic increase. From R5,500/mo.
+- [SEO Agency Johannesburg](https://www.juicydesigns.co.za/services/seo-johannesburg/): SEO agency in Johannesburg. Local SEO, national SEO, and technical audits for Sandton, Rosebank, and Gauteng businesses.
+- [SEO Agency Cape Town](https://www.juicydesigns.co.za/services/seo-cape-town/): SEO for Cape Town businesses. Local SEO, Google Maps, and organic growth for tourism, hospitality, property, and tech. From R5,500/mo.
+- [Google Ads Management Pretoria](https://www.juicydesigns.co.za/services/google-ads-pretoria/): Google Partner certified PPC agency in Pretoria. 47% cost-per-lead reduction, 3.8x ROAS, R50M+ managed. From R5,500/mo.
+- [Google Ads Management Johannesburg](https://www.juicydesigns.co.za/services/google-ads-johannesburg/): Google Ads management in Johannesburg. Google Partner PPC agency for Search, Display, Shopping, and YouTube. Average 4.1x ROAS.
+- [Google Ads Cape Town](https://www.juicydesigns.co.za/services/google-ads-cape-town/): Google Ads agency in Cape Town. Search, display, remarketing, tourism, and property lead generation campaigns. Average 3.7x ROAS.
+- [Custom Website Design Pretoria](https://www.juicydesigns.co.za/services/web-design-pretoria/): Custom website design in Pretoria. Mobile-first, conversion-optimised websites. From R15,000. Average 4-week delivery.
+- [Custom Website Design Johannesburg](https://www.juicydesigns.co.za/services/web-design-johannesburg/): Fast, conversion-optimised websites for JHB businesses. Custom, Shopify, and WordPress. From R15,000. Sandton, Rosebank, Midrand.
+- [Website Design Cape Town](https://www.juicydesigns.co.za/services/web-design-cape-town/): Professional website design for Cape Town businesses. Custom, Shopify, WordPress, and ecommerce from R15,000. Remote-first process.
+- [Branding & Logo Design Pretoria](https://www.juicydesigns.co.za/services/branding-pretoria/): Strategy-led branding and logo design for Pretoria businesses. Logos from R8,500. Full brand identity from R25,000.
+- [Branding & Logo Design Cape Town](https://www.juicydesigns.co.za/services/branding-cape-town/): Brand identity and logo design for Cape Town businesses including tech startups, wine estates, and tourism brands. Logo from R8,500.
+- [Social Media Marketing Company in Pretoria](https://www.juicydesigns.co.za/services/social-media-marketing-pretoria/): Social media marketing in Pretoria. Local strategy, content creation, and paid campaigns on Facebook and Instagram.
+- [Social Media Marketing Johannesburg](https://www.juicydesigns.co.za/services/social-media-marketing-johannesburg/): Social media marketing in Johannesburg. Strategy, content, and paid social for JHB businesses on Facebook, Instagram, LinkedIn, and TikTok.
+- [Social Media Marketing Cape Town](https://www.juicydesigns.co.za/services/social-media-marketing-cape-town/): Social media marketing for Cape Town businesses. Strategy, content creation, Meta and TikTok advertising for tourism, hospitality, and tech.
+
+
+## Industry-Specific Services
+
+- [Healthcare Marketing Agency South Africa](https://www.juicydesigns.co.za/services/healthcare-marketing/): HPCSA-compliant marketing for practices, clinics, and allied health. Practice websites, local SEO, educational content, and patient communications.
+- [Automotive Marketing Agency South Africa](https://www.juicydesigns.co.za/services/automotive-marketing/): Marketing for SA car dealerships, OEMs, parts suppliers, and service centres. Dealership lead generation, automotive social media, and Google Ads.
+- [Real Estate Marketing Agency South Africa](https://www.juicydesigns.co.za/services/real-estate-marketing/): Real estate marketing for SA estate agents, agencies, and property developers. Listing-led social, buyer and seller lead generation, and local SEO.
+- [Legal Marketing Agency South Africa](https://www.juicydesigns.co.za/services/legal-marketing/): Marketing for South African law firms and attorneys. Law firm SEO, Google Ads, practice-area pages, and compliant client acquisition.
+- [Hospitality Marketing Agency South Africa](https://www.juicydesigns.co.za/services/hospitality-marketing/): Hospitality marketing for SA hotels, restaurants, lodges, and tourism operators. Booking-driven Google Ads, social content, and direct-booking strategy.
+- [Retail Marketing Agency South Africa](https://www.juicydesigns.co.za/services/retail-marketing/): Retail digital marketing for SA stores, franchises, and online retailers. Drives footfall and online sales. Average 4.8x ROAS.
+- [Education Marketing South Africa](https://www.juicydesigns.co.za/services/education-marketing/): Education marketing for SA schools, colleges, and training providers. Enrolment campaigns, social media, and SEO. From R7,000/mo.
+- [Insurance Marketing Agency South Africa](https://www.juicydesigns.co.za/services/insurance-marketing/): Compliance-aware insurance lead generation, Google Ads, and reporting for SA brokers, insurers, and financial advisors. Average 4.8x ROAS.
+- [B2B Marketing Agency South Africa](https://www.juicydesigns.co.za/services/b2b-marketing/): B2B marketing in South Africa. Lead generation, LinkedIn, demand generation, and content for B2B brands. Founder-led since 2015. From R10,000/mo.
+- [Restaurant Marketing Agency South Africa](https://www.juicydesigns.co.za/services/restaurant-marketing/): Restaurant marketing for SA restaurants and cafes. Social media, local SEO, and bookings. Founder-led. From R6,000/mo.
+- [Tourism Marketing South Africa](https://www.juicydesigns.co.za/services/tourism-marketing/): Tourism marketing for SA lodges, tours, and travel brands. Direct bookings, content, and social. Founder-led since 2015. From R7,500/mo.
+- [Fitness Marketing Agency South Africa](https://www.juicydesigns.co.za/services/fitness-marketing/): Marketing for SA gyms, studios, and personal trainers. Member acquisition ads, social content, and local SEO that fills classes.
+- [Franchise Marketing South Africa](https://www.juicydesigns.co.za/services/franchise-marketing/): Franchise marketing for SA networks. Local and national campaigns, lead generation, and brand consistency. Founder-led. From R12,000/mo.
+- [Nonprofit Marketing South Africa](https://www.juicydesigns.co.za/services/nonprofit-marketing/): Nonprofit marketing for SA NPOs and charities. Fundraising campaigns, social media, and storytelling. Founder-led since 2015. From R5,000/mo.
+
+
+## Guides & Research
+
+- [SEO in South Africa: The Complete Guide](https://www.juicydesigns.co.za/guides/seo-south-africa/): Complete SEO guide for SA businesses. Ranking, costs, technical audits, link building, local search, and choosing an SEO agency explained.
+- [Google Ads & PPC in South Africa: Complete Guide](https://www.juicydesigns.co.za/guides/google-ads-ppc/): Complete Google Ads and PPC guide for SA businesses. Costs, budgets, campaign types, Shopping, Performance Max, and paid vs organic.
+- [Local SEO in South Africa: Complete Guide](https://www.juicydesigns.co.za/guides/local-seo-south-africa/): Complete local SEO guide for SA businesses. Google Maps ranking, Google Business Profile, retail, and car dealership local search.
+- [Social Media Marketing in South Africa: Complete Guide](https://www.juicydesigns.co.za/guides/social-media-marketing-south-africa/): Complete social media marketing guide for SA businesses. Strategy, posting, content calendars, cost, video, UGC, and influencers.
+- [Web Design & Website Cost in South Africa: Guide](https://www.juicydesigns.co.za/guides/web-design-cost/): Complete web design and website cost guide for SA. Pricing, development costs, platforms, ecommerce, and how to choose a web designer.
+- [AI Search in SA: AEO, GEO & AI Overviews Guide](https://www.juicydesigns.co.za/guides/ai-search-aeo-geo/): Practical AI search guide for SA businesses. AEO, GEO, Google AI Overviews, ChatGPT citations, llms.txt, and how to get found by AI.
+- [Small Business Marketing in South Africa: Complete Guide](https://www.juicydesigns.co.za/guides/small-business-marketing/): Complete small business marketing guide for SA. Strategy, SEO, digital channels, common challenges, and a yearly plan.
+- [Branding & Brand Strategy Guide for SA Businesses](https://www.juicydesigns.co.za/guides/branding/): Complete branding and brand strategy guide for SA businesses. Strategy, identity, and how to grow and protect your brand.
+- [Logo & Brand Identity Design Guide (South Africa)](https://www.juicydesigns.co.za/guides/logo-design/): Practical logo and brand identity design guide for SA businesses. What makes a good logo and how to choose the right designer.
+- [Industry Marketing in South Africa: Guides by Sector](https://www.juicydesigns.co.za/guides/industry-marketing-south-africa/): Industry marketing guides for SA businesses by sector: automotive, healthcare, fitness, hospitality, insurance, legal, real estate, retail, and more.
+- [South African Search Advertising Benchmarks 2026](https://www.juicydesigns.co.za/research/south-african-search-advertising-benchmarks-2026/): First-party benchmark data from 1,224 SA campaigns (July 2025 to June 2026). 2026 averages: CPC R88.97, CTR 6.64%, CVR 8.18%, CPL R1,294.70 (up 33.28% YoY), plus CPC, CTR, CVR and CPL for 24 industries. Free to cite with attribution to Juicy Designs.
+- [The State of Digital Marketing in South Africa 2026](https://www.juicydesigns.co.za/research/state-of-digital-marketing-south-africa-2026/): Original research on how South African businesses budget, choose channels, and adopt AI search in 2026. Survey methodology and findings.
+
+
+## Blog – Top Posts
+
+- [How Much Does Digital Marketing Cost in South Africa?](https://www.juicydesigns.co.za/blog/digital-marketing-cost-south-africa/): Digital marketing cost in SA ranges from R5,000 to R25,000+ per month. Pricing by channel for SEO, Google Ads, social media, and web design.
+- [How Much Does SEO Cost in South Africa?](https://www.juicydesigns.co.za/blog/seo-cost-south-africa/): SEO cost in SA: small business R3,500 to R8,000/mo, mid-market R8,000 to R20,000/mo, once-off audits from R3,500. What drives SEO prices explained.
+- [How Much Do Google Ads Cost in South Africa?](https://www.juicydesigns.co.za/blog/google-ads-cost-south-africa/): Google Ads cost in SA: most small businesses spend R5,000 to R20,000/mo on ad spend, plus R4,000 to R10,000/mo management fee.
+- [Website Costs in South Africa: Pricing Guide](https://www.juicydesigns.co.za/blog/website-cost-south-africa/): Website cost in SA ranges from R8,000 to R150,000+. Scope, design, content, SEO, integrations, and hosting all affect the final price.
+- [How Much Do Facebook Ads Cost in South Africa?](https://www.juicydesigns.co.za/blog/facebook-ads-cost-south-africa/): Facebook ads in SA: expect R6,000+/mo ad spend, R30 to R90 CPM, and R40 to R250 per lead. Full 2026 cost breakdown.
+- [Digital Marketing Trends in SA 2026](https://www.juicydesigns.co.za/blog/digital-marketing-trends-south-africa-2026/): Digital marketing trends shaping South Africa in 2026: AI search, WhatsApp commerce, short-form video, POPIA, and local SEO.
+- [Answer Engine Optimisation (AEO): 2026 Guide for SA](https://www.juicydesigns.co.za/blog/answer-engine-optimisation-aeo/): What AEO is, how it differs from SEO and GEO, and the tactics that get your business cited in AI-generated answers.
+- [Generative Engine Optimisation (GEO): Get Cited by AI](https://www.juicydesigns.co.za/blog/generative-engine-optimisation-geo/): What GEO is and how to get cited by ChatGPT and Google AI Overviews. AI search optimisation built on solid SEO fundamentals.
+- [How to Appear in Google AI Overviews](https://www.juicydesigns.co.za/blog/how-to-appear-in-google-ai-overviews/): Step-by-step guide to appearing in Google AI Overviews. Strong SEO plus clear, structured, answer-first content wins citations.
+- [AEO vs SEO: What's the Difference?](https://www.juicydesigns.co.za/blog/aeo-vs-seo/): SEO optimises to rank in search results; AEO optimises to be the answer AI engines and featured snippets quote. How they work together.
+- [What Is llms.txt and Does Your Website Need One?](https://www.juicydesigns.co.za/blog/what-is-llms-txt/): llms.txt is a proposed plain-text file listing a site's key content for AI crawlers. Easy to add; does not directly affect Google rankings.
+- [How to Get Your Brand Cited by ChatGPT](https://www.juicydesigns.co.za/blog/get-cited-by-chatgpt/): Earn ChatGPT citations with authoritative content, clear entity signals, structured data, and third-party mentions. Cannot be paid for.
+- [How to Rank on Google in South Africa](https://www.juicydesigns.co.za/blog/how-to-rank-on-google-south-africa/): Practical guide to ranking on Google in SA: technical SEO, keyword targeting, Google Business Profile, backlinks, and page speed.
+- [How Long Does SEO Take to Work?](https://www.juicydesigns.co.za/blog/how-long-does-seo-take/): Most SA sites see early movement in 3 to 4 months and meaningful results in 6 to 12 months, depending on competition, site age, and budget.
+- [Facebook Ads vs Google Ads: Which for SA Business?](https://www.juicydesigns.co.za/blog/facebook-ads-vs-google-ads-south-africa/): Compare cost, intent, targeting, and speed of Facebook Ads vs Google Ads for South African businesses, with a clear verdict on when to use each.
+- [TikTok Advertising in South Africa 2026](https://www.juicydesigns.co.za/blog/tiktok-advertising-south-africa/): TikTok advertising in SA reaches 15M+ users at CPMs lower than Meta. Ad formats, ZAR costs, audience targeting, and campaign setup guide.
+- [Meta Ads in South Africa: A Complete 2026 Guide](https://www.juicydesigns.co.za/blog/meta-ads-guide-south-africa/): How Facebook and Instagram advertising works in SA: costs, targeting, budgets, and getting real ROAS. Complete 2026 guide.
+- [Social Media Marketing Cost in South Africa](https://www.juicydesigns.co.za/blog/social-media-marketing-cost-south-africa/): Social media marketing cost in SA: typically R4,500 to R15,000/mo for management, depending on platforms, content volume, and whether paid ads are included.
+- [Digital Marketing for Small Business: What Works in SA](https://www.juicydesigns.co.za/blog/digital-marketing-for-small-business/): What works in digital marketing for small business in South Africa, what wastes money, channels, budgets, and how to choose an agency.
+- [How to Choose a Digital Marketing Agency in South Africa](https://www.juicydesigns.co.za/blog/how-to-choose-digital-marketing-agency-south-africa/): Practical checklist for choosing a marketing agency in SA: what to look for, red flags to avoid, and questions to ask before signing.
+- [POPIA For Marketers: A Plain Guide](https://www.juicydesigns.co.za/blog/popia-for-marketers-south-africa/): How POPIA shapes marketing data collection, storage, and use in South Africa. Consent, lawful basis, and a practical compliance checklist.
+- [Email Marketing in South Africa: Complete Guide](https://www.juicydesigns.co.za/blog/email-marketing-south-africa/): Email marketing in SA: strong ROI when POPIA-safe and well segmented. Costs, platforms, automation, and benchmarks explained.
+- [What Is ROAS In Digital Marketing?](https://www.juicydesigns.co.za/blog/what-is-roas-digital-marketing/): ROAS explained: what return on ad spend means, how to calculate it, what a good target is, and why lead quality matters more than clicks.
+- [What Is ROAS? A Plain-Language Guide for Business Owners](https://www.juicydesigns.co.za/blog/what-is-roas-a-plain-language-guide-for-business-owners/): ROAS formula (revenue divided by cost of ads), break-even ROAS calculation, 2026 industry benchmarks (ecommerce 2.05x-2.87x, B2B SaaS 1.70x-2.2x), attribution model impact, and three tactics to improve ROAS: audience segmentation, creative testing, landing page speed.
+- [What Is a Good ROAS for Google Ads? Industry Benchmarks Explained](https://www.juicydesigns.co.za/blog/what-is-a-good-roas-for-google-ads/): 2026 Google Ads ROAS benchmarks by vertical (beauty 6.1x through healthcare 2.1x), break-even ROAS formula, Target ROAS ranges by campaign type (Search 5.2x-8.0x, Shopping 2x-4x), and tactics including AI-driven audience targeting (up to 31% ROAS lift).
+- [ROAS Meaning: What Every Business Owner Needs to Know](https://www.juicydesigns.co.za/blog/roas-meaning/): ROAS meaning (return on ad spend = revenue divided by ad spend), formula as ratio vs percentage, ROAS vs ROI vs CPA, 2026 benchmarks (ecommerce median 2.87x, Google Ads 3.5x-3.7x, Meta 1.9x-2.2x), and three ways to raise ROAS: audience targeting, landing page speed, higher average order value.
+- [Return on Ad Spend: The Complete Guide for Small Business Owners](https://www.juicydesigns.co.za/blog/return-on-ad-spend-complete-guide/): Complete ROAS guide: formula (platform spend only), attribution models (last-click vs data-driven, 30-conversion minimum), benchmarks by channel, break-even formula, LTV-to-CAC ratio (3:1 threshold), and 7 levers to improve return on ad spend without increasing budget.
+- [SEO vs Google Ads: Long-Term Value Compared](https://www.juicydesigns.co.za/blog/seo-vs-ppc/): SEO vs PPC compared on speed, cost over time, durability, intent, and control. Most SA businesses need both channels.
+- [Black Friday Marketing South Africa: 2026 Playbook](https://www.juicydesigns.co.za/blog/black-friday-marketing-south-africa/): SA Black Friday marketing: start early, build audiences, ready your site and stock, then layer offers across Google, Meta, email, and SMS.
+
+
+## Free Tools
+
+- [AI Search Readiness Audit](https://www.juicydesigns.co.za/tools/ai-search-audit/): Free tool. Paste a URL for a live AI search readiness score across crawler access, schema, content, authority and on-page signals, with per-check fixes and a PDF.
+- [AI Readiness Assessment](https://www.juicydesigns.co.za/tools/ai-readiness/): Free 15-question self-assessment scoring readiness for ChatGPT, Gemini, Perplexity and Google AI Overviews across five areas, with a full report and PDF.
+- [Schema Markup Generator](https://www.juicydesigns.co.za/tools/schema-generator/): Free JSON-LD generator for Organization, LocalBusiness, FAQPage and Article schema, with live preview and validator links.
+- [SEO Audit](https://www.juicydesigns.co.za/tools/seo-audit/): Free on-page and technical SEO audit of any URL: indexability, titles and meta, headings, images, mobile and structured data, with fixes.
+- [Website Cost Calculator](https://www.juicydesigns.co.za/tools/website-cost-calculator/): Free calculator estimating a new website cost in South African rand by website type, pages and features.
+- [How We Measure AI Search Readiness](https://www.juicydesigns.co.za/blog/how-we-measure-ai-search-readiness/): The published scoring methodology behind the Juicy Designs AI search and SEO audits: five categories, every check, score bands and limits.
+- [State of AI Search Readiness in SA (benchmark)](https://www.juicydesigns.co.za/blog/state-of-ai-search-readiness-south-africa/): Original first-party benchmark of AI search readiness for South African websites, from anonymised audit results.
+- [Free SEO & AI Search Tools Hub](https://www.juicydesigns.co.za/tools/): Index of all free Juicy Designs tools.
+
+
+## Key Facts
+
+- Founded: 2015
+- Location: Pretoria, Gauteng, South Africa
+- Founders: Cobus van der Westhuizen (CEO, Google Ads certified) and Wynand van der Westhuizen (co-founder, Meta Business Partner, creative director)
+- Clients: 64+ active clients
+- Google rating: 4.9 stars (214 reviews)
+- Average ROAS: 4.8x (approximately 2x the industry average)
+- Certifications: Google Partner, Meta Business Partner
+- Pricing: packages from R5,000/mo; no lock-in contracts; month-to-month
+- Services: SEO, Google Ads, social media marketing, web design, branding, content marketing, email marketing, AI search optimisation, GEO/AEO, programmatic advertising, PR, and more
+- Service area: Primarily Pretoria and Gauteng; serves all of South Africa remotely
+
+
+## Contact
+
+- Website: https://www.juicydesigns.co.za/
+- Email: info@juicydesigns.co.za
+- Phone: +27 79 395 3300
+- Location: Pretoria, Gauteng, South Africa
+- Contact page: https://www.juicydesigns.co.za/contact/
+- Editorial policy: https://www.juicydesigns.co.za/editorial-policy/
+
+
+## AI Discovery Files
+
+- [AI Interaction Guidance](https://www.juicydesigns.co.za/ai.txt): Permissions and restrictions for AI systems
+- [AI Interaction Guidance (JSON)](https://www.juicydesigns.co.za/ai.json): Machine-parseable permissions and restrictions
+- [Identity Data](https://www.juicydesigns.co.za/identity.json): Structured business identity information
+- [Brand Guidelines](https://www.juicydesigns.co.za/brand.txt): How to correctly reference the Juicy Designs brand
+- [FAQ for AI](https://www.juicydesigns.co.za/faq-ai.txt): Frequently asked questions in AI-readable format
+- [Developer Context](https://www.juicydesigns.co.za/developer-ai.txt): Technical context, public API, and MCP server details
+- [AI Crawler Directives](https://www.juicydesigns.co.za/robots-ai.txt): AI crawler-specific access directives
+- [Human-Readable Version](https://www.juicydesigns.co.za/llms.html): This file as a human-readable HTML page
+
+
+## Glossary
+
+- [SEO](https://www.juicydesigns.co.za/glossary/seo/): SEO is the practice of optimising a website to rank higher in organic search results.
+- [On-Page SEO](https://www.juicydesigns.co.za/glossary/on-page-seo/): Optimisation techniques applied directly to a webpage, including title tags, headings, content quality, internal links, and meta descriptions.
+- [Technical SEO](https://www.juicydesigns.co.za/glossary/technical-seo/): The process of improving a website infrastructure so search engines can efficiently crawl, render, index, and rank its pages.
+- [Local SEO](https://www.juicydesigns.co.za/glossary/local-seo/): Optimising a business online presence to attract customers searching for nearby products or services, especially via Google Maps and local packs.
+- [Keyword Difficulty](https://www.juicydesigns.co.za/glossary/keyword-difficulty/): A metric estimating how hard it is to rank on page one for a keyword, based on the strength of existing competing pages.
+- [Search Intent](https://www.juicydesigns.co.za/glossary/search-intent/): The underlying purpose behind a search query, categorised as informational, navigational, transactional, or commercial investigation.
+- [Schema Markup](https://www.juicydesigns.co.za/glossary/schema-markup/): Structured data that helps search engines and AI tools understand content; JSON-LD earns rich results and AI citations.
+- [SERP (Search Engine Results Page)](https://www.juicydesigns.co.za/glossary/serp/): The page a search engine shows after a query, including features like snippets and AI Overviews.
+- [CPA (Cost Per Acquisition)](https://www.juicydesigns.co.za/glossary/cpa/): The average amount paid to acquire one paying customer through advertising.
+- [CPL (Cost Per Lead)](https://www.juicydesigns.co.za/glossary/pay-per-lead/): The average amount spent to generate one lead through a marketing channel.
+- [ROAS (Return On Ad Spend)](https://www.juicydesigns.co.za/glossary/return-on-ad-spend/): The revenue earned for every rand spent on advertising.
+- [ROI](https://www.juicydesigns.co.za/glossary/roi/): ROI measures the profitability of an investment by comparing net profit to cost.
+- [SEM](https://www.juicydesigns.co.za/glossary/sem/): The practice of using paid advertising to appear in search engine results.
+- [PPC (Pay Per Click)](https://www.juicydesigns.co.za/glossary/pay-per-click/): An advertising model where advertisers pay a fee each time their ad is clicked.
+- [Keyword Cannibalisation](https://www.juicydesigns.co.za/glossary/keyword-cannibalisation/): When multiple pages on the same site compete for the same keyword, splitting authority.
+- [Backlink](https://www.juicydesigns.co.za/glossary/backlink/): A link from another website pointing to your site, used by search engines as a trust and authority signal.
+- [Domain Authority](https://www.juicydesigns.co.za/glossary/domain-authority/): A third-party score predicting how well a domain is likely to rank in search results.
+- [Conversion Rate](https://www.juicydesigns.co.za/glossary/conversion-rate/): The percentage of visitors who complete a desired action, such as a purchase or form submission.
+- [E-E-A-T](https://www.juicydesigns.co.za/glossary/e-e-a-t/): Experience, Expertise, Authoritativeness and Trustworthiness, the quality signals Google systems use to assess content.
+- [Structured Data](https://www.juicydesigns.co.za/glossary/structured-data/): Standardised markup (JSON-LD) that describes page content in a format search engines and AI systems can parse directly.
+
+Full glossary: https://www.juicydesigns.co.za/glossary/ (700+ terms)

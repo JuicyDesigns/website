@@ -8,6 +8,15 @@
 User-agent: *
 Allow: /
 Allow: /llms.txt
+Allow: /llm.txt
+Allow: /llms.html
+Allow: /ai.txt
+Allow: /ai.json
+Allow: /identity.json
+Allow: /brand.txt
+Allow: /faq-ai.txt
+Allow: /developer-ai.txt
+Allow: /robots-ai.txt
 Allow: /facts.json
 Disallow: /admin/
 Disallow: /private/

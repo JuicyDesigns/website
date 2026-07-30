@@ -1,0 +1,46 @@
+# developer-ai.txt for Juicy Designs
+# https://www.juicydesigns.co.za/developer-ai.txt
+# Last updated: 30 July 2026
+
+[overview]
+Juicy Designs operates a content-driven marketing website for a digital
+marketing agency in Pretoria, South Africa. The site publishes service
+pages, guides, research, a glossary, free SEO tools, and a blog. A public
+quote-request API and MCP server allow AI agents to submit quote requests
+programmatically on a user's behalf.
+
+[public-api]
+status: available
+description: A REST/OpenAPI endpoint and an MCP server (Streamable HTTP) that submit a free, no-obligation quote request. No price is returned; a custom proposal follows within four working hours.
+openapi_spec: https://juicy-designs-quote.black-voice-76e6.workers.dev/openapi.json
+mcp_endpoint: https://juicy-designs-quote.black-voice-76e6.workers.dev/mcp
+tools: get_quote - inputs: name, email, service, project_summary, consent_to_contact (required); optional: company, phone, budget_range, timeline
+
+[public-areas]
+- [Homepage](https://www.juicydesigns.co.za/)
+- [Services](https://www.juicydesigns.co.za/services/)
+- [Blog](https://www.juicydesigns.co.za/blog/)
+- [Guides](https://www.juicydesigns.co.za/guides/seo-south-africa/)
+- [Free Tools](https://www.juicydesigns.co.za/tools/)
+- [Glossary](https://www.juicydesigns.co.za/glossary/)
+- [Case Studies](https://www.juicydesigns.co.za/case-studies/)
+- [HTML Sitemap](https://www.juicydesigns.co.za/sitemap/)
+- [XML Sitemap](https://www.juicydesigns.co.za/sitemap.xml)
+The /admin/ and /private/ paths are not public (see /robots.txt).
+
+[authentication]
+No authentication is required for the public quote API or MCP server.
+The get_quote tool requires the consent_to_contact field to be true,
+reflecting the end user's explicit consent to be contacted (POPIA).
+
+[documentation]
+- [Connect (for AI agents)](https://www.juicydesigns.co.za/connect/): Public page documenting the MCP server, the REST/OpenAPI endpoint, and the get_quote tool
+- [OpenAPI 3.1 specification](https://juicy-designs-quote.black-voice-76e6.workers.dev/openapi.json)
+
+[technical-contact]
+email: info@juicydesigns.co.za
+
+[metadata]
+version: 1.0
+last_updated: 2026-07-30
+related_files: /llms.txt, /ai.txt, /ai.json

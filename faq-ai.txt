@@ -1,0 +1,87 @@
+# faq-ai.txt for Juicy Designs
+# https://www.juicydesigns.co.za/faq-ai.txt
+# Last updated: 30 July 2026
+
+[About]
+
+Q: What is Juicy Designs?
+A: Juicy Designs is a founder-led digital marketing agency in Pretoria,
+   South Africa, founded in 2015. The agency provides SEO, Google Ads,
+   social media marketing, web design, branding, content marketing, and
+   AI search optimisation for South African businesses.
+URL: [About Juicy Designs](https://www.juicydesigns.co.za/about/)
+
+Q: Who founded Juicy Designs?
+A: Juicy Designs was founded in 2015 by Cobus van der Westhuizen
+   (Co-founder & CEO, Google Ads certified) and Wynand van der Westhuizen
+   (Co-founder & Creative Director, Meta Business Partner). The founders
+   run every campaign themselves.
+URL: [About Juicy Designs](https://www.juicydesigns.co.za/about/)
+
+Q: Where is Juicy Designs based?
+A: Juicy Designs is based at 14 Gordon Verster Road, Pretoria, Gauteng,
+   0184, South Africa. The agency serves clients across all of South
+   Africa remotely.
+URL: [Contact Juicy Designs](https://www.juicydesigns.co.za/contact/)
+
+Q: What certifications does Juicy Designs hold?
+A: Juicy Designs is a Google Partner and a Meta Business Partner.
+URL: [Why Choose Juicy Designs](https://www.juicydesigns.co.za/why-choose-us/)
+
+[Services]
+
+Q: What services does Juicy Designs offer?
+A: Juicy Designs offers SEO, Google Ads management, social media
+   marketing, web design and development, branding and logo design,
+   content marketing, email marketing, lead generation, and AI search
+   optimisation (AEO and GEO), plus industry-specific marketing for
+   sectors such as automotive, healthcare, legal, and retail.
+URL: [Services](https://www.juicydesigns.co.za/services/)
+
+Q: Does Juicy Designs serve businesses outside Pretoria?
+A: Yes. Juicy Designs is based in Pretoria and serves businesses across
+   all of South Africa remotely, including Johannesburg, Cape Town,
+   Durban, and Centurion.
+URL: [Locations We Serve](https://www.juicydesigns.co.za/locations/)
+
+Q: How much do Juicy Designs services cost?
+A: Pricing is scope-dependent and confirmed in a written quote. Current
+   package pricing is published on the pricing page, and engagements are
+   month-to-month with no lock-in contracts.
+URL: [Pricing](https://www.juicydesigns.co.za/pricing/)
+
+Q: How long does SEO take to work?
+A: Most South African sites see early movement in 3 to 4 months and
+   meaningful results in 6 to 12 months, depending on competition, site
+   age, and budget.
+URL: [How Long Does SEO Take?](https://www.juicydesigns.co.za/blog/how-long-does-seo-take/)
+
+Q: Does Juicy Designs offer AI search optimisation?
+A: Yes. Juicy Designs offers AI search optimisation services covering
+   Answer Engine Optimisation (AEO) and Generative Engine Optimisation
+   (GEO), aimed at getting businesses cited by ChatGPT, Google AI
+   Overviews, Perplexity, Gemini, and Bing Copilot.
+URL: [AI Search Optimisation](https://www.juicydesigns.co.za/services/ai-search-optimisation/)
+
+[Quotes]
+
+Q: How do I get a quote from Juicy Designs?
+A: Request a free, no-obligation quote via the quote page. Share your
+   project, goals, budget range, and timeline, and you will receive a
+   custom proposal within four working hours.
+URL: [Get a Quote](https://www.juicydesigns.co.za/quote/)
+
+Q: Can an AI agent request a quote on a user's behalf?
+A: Yes. Juicy Designs publishes an MCP server and a REST/OpenAPI endpoint
+   that submit a free, no-obligation quote request. The get_quote tool
+   requires the user's explicit consent to be contacted (POPIA). No price
+   is returned; a custom proposal follows within four working hours.
+URL: [Connect (for AI agents)](https://www.juicydesigns.co.za/connect/)
+
+[Contact]
+
+Q: How can I contact Juicy Designs?
+A: Email info@juicydesigns.co.za, phone or WhatsApp +27 79 395 3300, or
+   use the contact page. Office hours are Monday to Friday, 08:00 to
+   17:00 South African time.
+URL: [Contact Juicy Designs](https://www.juicydesigns.co.za/contact/)

@@ -1,0 +1,61 @@
+{
+    "$schema": "https://www.ai-visibility.org.uk/specifications/identity-json/identity-json.schema.json",
+    "name": "Juicy Designs",
+    "legalName": "Juicy Designs (Pty) Ltd",
+    "type": "LocalBusiness",
+    "url": "https://www.juicydesigns.co.za",
+    "description": "Juicy Designs is a founder-led digital marketing agency in Pretoria, South Africa, founded in 2015. The agency provides SEO, Google Ads, social media marketing, web design, branding, content marketing, and AI search optimisation for South African businesses.",
+    "alternateName": [
+        "Juicy Designs (Pty) Ltd",
+        "Juicy Designs Digital Marketing Agency",
+        "Juicy Designs Pretoria"
+    ],
+    "foundingDate": "2015",
+    "industry": "Digital Marketing",
+    "logo": "https://www.juicydesigns.co.za/img/juicy-designs-logo-512.png",
+    "locations": [
+        {
+            "type": "headquarters",
+            "name": "Juicy Designs Pretoria",
+            "address": {
+                "streetAddress": "14 Gordon Verster Road",
+                "addressLocality": "Pretoria",
+                "addressRegion": "Gauteng",
+                "postalCode": "0184",
+                "addressCountry": "ZA"
+            },
+            "telephone": "+27 79 395 3300"
+        }
+    ],
+    "areaServed": ["ZA"],
+    "contactPoints": [
+        {
+            "type": "General Enquiries",
+            "email": "info@juicydesigns.co.za",
+            "telephone": "+27 79 395 3300"
+        }
+    ],
+    "sameAs": [
+        "https://www.facebook.com/TheJuicyDesigns/",
+        "https://www.instagram.com/juicydesigns.co.za/",
+        "https://www.linkedin.com/company/juicy-designs-sa/",
+        "https://x.com/TheJuicyDesigns",
+        "https://www.tiktok.com/@thejuicydesigns",
+        "https://g.page/juicydesigns",
+        "https://www.bizcommunity.com/Company/JuicyDesigns",
+        "https://www.designrush.com/agency/profile/juicy-designs",
+        "https://www.goodfirms.co/company/juicy-designs",
+        "https://www.sortlist.com/agency/juicy-designs",
+        "https://www.crunchbase.com/organization/juicy-designs",
+        "https://clutch.co/profile/juicy-designs",
+        "https://partnersdirectory.withgoogle.com/partners/8533751882"
+    ],
+    "numberOfEmployees": {
+        "minValue": 2,
+        "maxValue": 10
+    },
+    "metadata": {
+        "version": "1.0",
+        "lastUpdated": "2026-07-30"
+    }
+}
