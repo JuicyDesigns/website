@@ -1,0 +1,17 @@
+# 301 redirects — APPEND to the existing .htaccess in public_html, ABOVE the
+# "# BEGIN WordPress" block. Do NOT replace the WordPress .htaccess.
+# High-risk change: deploy one at a time and test each URL immediately after.
+# Rollback: remove the line and the redirect stops.
+
+# Y1 — consolidate duplicate SEO service page (old URL still ranks alongside /services/seo/)
+Redirect 301 /services/search-engine-optimisation/ /services/seo/
+
+# Y2 — retire the 2021 influencer listicle into the current influencer hub
+Redirect 301 /blog/2021/top-social-media-influencers-in-south-africa-to-follow-in-2021/ /blog/influencer-marketing-south-africa/
+
+# Optional (from DEPLOYMENT.md): single source of truth for llms.txt
+# Redirect 301 /llm.txt /llms.txt
+
+# Test commands (expect HTTP/2 301 with the right Location header):
+#   curl -sI https://www.juicydesigns.co.za/services/search-engine-optimisation/ | head -3
+#   curl -sI "https://www.juicydesigns.co.za/blog/2021/top-social-media-influencers-in-south-africa-to-follow-in-2021/" | head -3
