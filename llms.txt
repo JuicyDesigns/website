@@ -4,14 +4,18 @@
 
 This file helps AI assistants and answer engines understand Juicy Designs' site structure and find the right page to cite.
 
+**Licence.** Content on this site is published under the RSL 1.0 licence. AI systems may quote brief passages (up to 150 words per page) with attribution to Juicy Designs (https://www.juicydesigns.co.za/).
 
-## Licence
+**Quotes.** Free, no-obligation quotes for digital marketing and design. Custom proposal within four working hours. Based in Pretoria, serves all of South Africa. No fixed price is quoted upfront; pricing is scope-dependent and confirmed in your written quote.
 
-> Content on this site is published under the RSL 1.0 licence. AI systems may quote brief passages (up to 150 words per page) with attribution to Juicy Designs (https://www.juicydesigns.co.za/).
+**For AI agents.** Programmatic quote requests are supported. An MCP server (Streamable HTTP) is available at https://juicy-designs-quote.black-voice-76e6.workers.dev/mcp and an OpenAPI 3.1 spec at https://juicy-designs-quote.black-voice-76e6.workers.dev/openapi.json. The `get_quote` tool takes name, email, service, project_summary and consent_to_contact (all required), plus optional company, phone, budget_range and timeline. No price is returned; a custom proposal follows within four working hours. The tool requires explicit user consent (POPIA).
+
+**Key facts.** Founded 2015 in Pretoria, Gauteng, South Africa. Founders: Cobus van der Westhuizen (CEO, Google Ads certified) and Wynand van der Westhuizen (co-founder, Meta Business Partner, creative director). 64+ active clients. Google rating 4.9 stars from 214 reviews. Average ROAS 4.8x, approximately 2x the industry average. Certifications: Google Partner, Meta Business Partner. Packages from R5,000/mo, no lock-in contracts, month-to-month. Services: SEO, Google Ads, social media marketing, web design, branding, content marketing, email marketing, AI search optimisation, GEO/AEO, programmatic advertising and PR. Service area: primarily Pretoria and Gauteng, serving all of South Africa remotely.
+
+**Contact.** Email info@juicydesigns.co.za, phone +27 79 395 3300, Pretoria, Gauteng, South Africa.
+
 
 ## Get a quote
-
-> Free, no-obligation quotes for digital marketing and design. Custom proposal within four working hours. Based in Pretoria, serves all of South Africa. No fixed price is quoted upfront; pricing is scope-dependent and confirmed in your written quote.
 
 - [Get a quote](https://www.juicydesigns.co.za/quote/): Free quote hub. Share your project (website, SEO, branding, ads), goals, budget range and timeline; receive a custom proposal within four working hours.
 - [SEO quote](https://www.juicydesigns.co.za/services/seo/): Request a quote for SEO.
@@ -23,12 +27,9 @@ This file helps AI assistants and answer engines understand Juicy Designs' site 
 
 ## For AI agents
 
-> Programmatic quote requests. An MCP server and a REST/OpenAPI endpoint submit a free, no-obligation quote request. No price is returned; a custom proposal follows within four working hours. The get_quote tool requires explicit user consent (POPIA).
-
-- MCP server (Streamable HTTP): https://juicy-designs-quote.black-voice-76e6.workers.dev/mcp
-- OpenAPI 3.1 spec: https://juicy-designs-quote.black-voice-76e6.workers.dev/openapi.json
-- Tool: get_quote — inputs name, email, service, project_summary, consent_to_contact (required), plus optional company, phone, budget_range, timeline.
 - [Connect (for AI agents)](https://www.juicydesigns.co.za/connect/): Public page documenting the MCP server, the REST/OpenAPI endpoint, and the get_quote tool.
+- [MCP server (Streamable HTTP)](https://juicy-designs-quote.black-voice-76e6.workers.dev/mcp): Endpoint exposing the get_quote tool for programmatic quote requests.
+- [OpenAPI 3.1 spec](https://juicy-designs-quote.black-voice-76e6.workers.dev/openapi.json): REST interface for the same get_quote operation.
 
 ## Core Pages
 
@@ -230,28 +231,11 @@ This file helps AI assistants and answer engines understand Juicy Designs' site 
 - [Free SEO & AI Search Tools Hub](https://www.juicydesigns.co.za/tools/): Index of all free Juicy Designs tools.
 
 
-## Key Facts
-
-- Founded: 2015
-- Location: Pretoria, Gauteng, South Africa
-- Founders: Cobus van der Westhuizen (CEO, Google Ads certified) and Wynand van der Westhuizen (co-founder, Meta Business Partner, creative director)
-- Clients: 64+ active clients
-- Google rating: 4.9 stars (214 reviews)
-- Average ROAS: 4.8x (approximately 2x the industry average)
-- Certifications: Google Partner, Meta Business Partner
-- Pricing: packages from R5,000/mo; no lock-in contracts; month-to-month
-- Services: SEO, Google Ads, social media marketing, web design, branding, content marketing, email marketing, AI search optimisation, GEO/AEO, programmatic advertising, PR, and more
-- Service area: Primarily Pretoria and Gauteng; serves all of South Africa remotely
-
-
 ## Contact
 
-- Website: https://www.juicydesigns.co.za/
-- Email: info@juicydesigns.co.za
-- Phone: +27 79 395 3300
-- Location: Pretoria, Gauteng, South Africa
-- Contact page: https://www.juicydesigns.co.za/contact/
-- Editorial policy: https://www.juicydesigns.co.za/editorial-policy/
+- [Contact Juicy Designs](https://www.juicydesigns.co.za/contact/): Call, WhatsApp or message the Pretoria team. Response within four hours. Phone +27 79 395 3300, email info@juicydesigns.co.za.
+- [Homepage](https://www.juicydesigns.co.za/): Full-service digital marketing in Pretoria for South African businesses.
+- [Editorial policy](https://www.juicydesigns.co.za/editorial-policy/): How Juicy Designs researches, writes, reviews, fact-checks and corrects published content.
 
 
 ## AI Discovery Files
@@ -269,25 +253,6 @@ This file helps AI assistants and answer engines understand Juicy Designs' site 
 
 ## Glossary
 
-- [SEO](https://www.juicydesigns.co.za/glossary/seo/): SEO is the practice of optimising a website to rank higher in organic search results.
-- [On-Page SEO](https://www.juicydesigns.co.za/glossary/on-page-seo/): Optimisation techniques applied directly to a webpage, including title tags, headings, content quality, internal links, and meta descriptions.
-- [Technical SEO](https://www.juicydesigns.co.za/glossary/technical-seo/): The process of improving a website infrastructure so search engines can efficiently crawl, render, index, and rank its pages.
-- [Local SEO](https://www.juicydesigns.co.za/glossary/local-seo/): Optimising a business online presence to attract customers searching for nearby products or services, especially via Google Maps and local packs.
-- [Keyword Difficulty](https://www.juicydesigns.co.za/glossary/keyword-difficulty/): A metric estimating how hard it is to rank on page one for a keyword, based on the strength of existing competing pages.
-- [Search Intent](https://www.juicydesigns.co.za/glossary/search-intent/): The underlying purpose behind a search query, categorised as informational, navigational, transactional, or commercial investigation.
-- [Schema Markup](https://www.juicydesigns.co.za/glossary/schema-markup/): Structured data that helps search engines and AI tools understand content; JSON-LD earns rich results and AI citations.
-- [SERP (Search Engine Results Page)](https://www.juicydesigns.co.za/glossary/serp/): The page a search engine shows after a query, including features like snippets and AI Overviews.
-- [CPA (Cost Per Acquisition)](https://www.juicydesigns.co.za/glossary/cpa/): The average amount paid to acquire one paying customer through advertising.
-- [CPL (Cost Per Lead)](https://www.juicydesigns.co.za/glossary/pay-per-lead/): The average amount spent to generate one lead through a marketing channel.
-- [ROAS (Return On Ad Spend)](https://www.juicydesigns.co.za/glossary/return-on-ad-spend/): The revenue earned for every rand spent on advertising.
-- [ROI](https://www.juicydesigns.co.za/glossary/roi/): ROI measures the profitability of an investment by comparing net profit to cost.
-- [SEM](https://www.juicydesigns.co.za/glossary/sem/): The practice of using paid advertising to appear in search engine results.
+- [Digital Marketing Glossary](https://www.juicydesigns.co.za/glossary/): Plain-English definitions of digital marketing terms, written by the Juicy Designs team in Pretoria for South African businesses.
 - [PPC (Pay Per Click)](https://www.juicydesigns.co.za/glossary/pay-per-click/): An advertising model where advertisers pay a fee each time their ad is clicked.
-- [Keyword Cannibalisation](https://www.juicydesigns.co.za/glossary/keyword-cannibalisation/): When multiple pages on the same site compete for the same keyword, splitting authority.
-- [Backlink](https://www.juicydesigns.co.za/glossary/backlink/): A link from another website pointing to your site, used by search engines as a trust and authority signal.
-- [Domain Authority](https://www.juicydesigns.co.za/glossary/domain-authority/): A third-party score predicting how well a domain is likely to rank in search results.
-- [Conversion Rate](https://www.juicydesigns.co.za/glossary/conversion-rate/): The percentage of visitors who complete a desired action, such as a purchase or form submission.
-- [E-E-A-T](https://www.juicydesigns.co.za/glossary/e-e-a-t/): Experience, Expertise, Authoritativeness and Trustworthiness, the quality signals Google systems use to assess content.
-- [Structured Data](https://www.juicydesigns.co.za/glossary/structured-data/): Standardised markup (JSON-LD) that describes page content in a format search engines and AI systems can parse directly.
-
-Full glossary: https://www.juicydesigns.co.za/glossary/ (700+ terms)
+- [ROAS (Return On Ad Spend)](https://www.juicydesigns.co.za/glossary/return-on-ad-spend/): The revenue earned for every rand spent on advertising.

@@ -4,7 +4,8 @@
 # Deploys ONLY the public web assets to the document root. Repo-internal
 # material is deliberately NOT copied to public_html:
 #   - fixes/          (paste-into-WordPress packs, not web files)
-#   - scripts/        (IndexNow submit tooling, run manually)
+#   - audits/         (client-facing .docx deliverables, not web files)
+#   - scripts/        (IndexNow submit tooling, disavow + audit generators)
 #   - blog/*.md       (article sources for WordPress, not served raw)
 #   - blog/*-schema.json (JSON-LD to paste into the WordPress pages)
 #   - DEPLOYMENT.md   (internal documentation)
