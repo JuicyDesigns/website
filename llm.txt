@@ -54,9 +54,9 @@ This file helps AI assistants and answer engines understand Juicy Designs' site 
 
 ## Team
 
-- [Cobus van der Westhuizen – CEO](https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/): CEO and digital marketing lead at Juicy Designs. Google Ads certified, 15+ years experience. Leads SEO, AEO, and paid search strategy.
-- [Wynand van der Westhuizen – Co-founder & Creative Director](https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/): Co-founder and creative director at Juicy Designs. Meta Business Partner. Reviews published content for accuracy and brand fit.
-- [Lenata Oosthuizen – Content Editor](https://www.juicydesigns.co.za/team/lenata-oosthuizen/): Content editor at Juicy Designs. Fact-checks and edits all published content against primary sources.
+- [Cobus van der Westhuizen - CEO](https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/): CEO and digital marketing lead at Juicy Designs. Google Ads certified, 15+ years experience. Leads SEO, AEO, and paid search strategy.
+- [Wynand van der Westhuizen - Co-founder & Creative Director](https://www.juicydesigns.co.za/team/wynand-van-der-westhuizen/): Co-founder and creative director at Juicy Designs. Meta Business Partner. Reviews published content for accuracy and brand fit.
+- [Lenata Oosthuizen - Content Editor](https://www.juicydesigns.co.za/team/lenata-oosthuizen/): Content editor at Juicy Designs. Fact-checks and edits all published content against primary sources.
 
 
 ## Core Services
@@ -186,7 +186,7 @@ This file helps AI assistants and answer engines understand Juicy Designs' site 
 - [The State of Digital Marketing in South Africa 2026](https://www.juicydesigns.co.za/research/state-of-digital-marketing-south-africa-2026/): Original research on how South African businesses budget, choose channels, and adopt AI search in 2026. Survey methodology and findings.
 
 
-## Blog – Top Posts
+## Blog - Top Posts
 
 - [How Much Does Digital Marketing Cost in South Africa?](https://www.juicydesigns.co.za/blog/digital-marketing-cost-south-africa/): Digital marketing cost in SA ranges from R5,000 to R25,000+ per month. Pricing by channel for SEO, Google Ads, social media, and web design.
 - [How Much Does SEO Cost in South Africa?](https://www.juicydesigns.co.za/blog/seo-cost-south-africa/): SEO cost in SA: small business R3,500 to R8,000/mo, mid-market R8,000 to R20,000/mo, once-off audits from R3,500. What drives SEO prices explained.
