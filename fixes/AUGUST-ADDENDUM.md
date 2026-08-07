@@ -127,15 +127,41 @@ referring domains are South African** - that, not the spam, is the real reason a
 Pretoria agency ranks in the 70s for "web design pretoria".
 
 **Fix.**
-1. Export Semrush → Backlink Analytics → Referring Domains → CSV.
-2. `./scripts/build-disavow.sh refdomains.csv > fixes/disavow-juicydesigns.txt`
-3. **Review the output by hand**, then upload at
-   https://search.google.com/search-console/disavow-links
-4. Determine the origin. If a vendor was engaged for links or traffic, cancel it - 
+
+`fixes/disavow-juicydesigns.txt` is generated and committed: **604 of the 796
+referring domains disavowed, 192 kept.** It was produced by
+`scripts/build-disavow.sh` from a full Semrush referring-domains export
+(796 rows, matching Semrush's reported total exactly).
+
+1. **Review the file before uploading.** It opens with two review blocks rather
+   than making you skim 604 lines:
+   - Eight domains disavowed despite an authority score of 10 or more
+     (`4mark.net` 26, `newsblaze.com` 31, `lmcordoba.com.ar` 24,
+     `digitaladblog.com` 15, `newsnetmedia.com` 14, `marketminute.com` 14,
+     `aweblist.org` 14, `duovoltart.com` 12). Each is a deliberate call from the
+     explicit list, not a pattern match. `4mark.net` is the source of the
+     "please type a website title" links; the rest sit on the `5.100.156.x` PBN
+     range or the shared press-release IPs.
+   - Two kept domains that match the directory-network naming grammar and were
+     spared only by the score threshold (`citybiznet.net` and
+     `citybizratings.com`, both authority 12). They are probably network
+     members, but they are left in rather than auto-disavowed. Confirm and, if
+     so, add them to `EXPLICIT` in the script.
+2. Spot-check the kept list. It should contain the real editorial links:
+   DesignRush, BizCommunity, Crunchbase, Windy, MySpace, Devpost, NatLawReview,
+   FinancialContent, Observer-Reporter, Instapaper, plus the `.edu` domains and
+   `adios.co.za` (a client).
+3. Upload at https://search.google.com/search-console/disavow-links
+4. Determine the origin. If a vendor was engaged for links or traffic, cancel it -
    it is the common cause of A1, A2 and A3 together. If not, treat it as negative
    SEO and say so in any reconsideration request.
 5. Then earn real SA links: BizCommunity (already linking), Pretoria and Gauteng
    business bodies, SA marketing publications, client case-study co-marketing.
+
+To refresh later, re-export from Semrush and re-run
+`./scripts/build-disavow.sh refdomains.csv > fixes/disavow-juicydesigns.txt`.
+The script matches on the networks' own naming grammar, so it catches members
+that had not been crawled at the time of this export.
 
 **Confidence: Confirmed** for the profile and the anchor text. **Likely** for the
 link/suppression connection - the scaled-content explanation in `RECOVERY-ACTIONS.md`

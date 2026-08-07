@@ -392,7 +392,7 @@ audit.push(
     ],
     [
       "Fix.",
-      "Export Semrush referring domains to CSV, run scripts/build-disavow.sh against it, review the output by hand, and upload to the Search Console disavow tool. Then determine the origin: if a vendor was engaged for links or traffic, cancel it, since that single purchase plausibly explains R1, R3 and R2 together. If not, treat it as negative SEO and say so in any reconsideration request. Then earn real SA links.",
+      "The disavow file is generated and committed at fixes/disavow-juicydesigns.txt: 604 of the 796 referring domains disavowed, 192 kept. Review it before uploading - it opens with two review blocks, one listing the eight domains disavowed despite an authority score of 10 or more, the other listing two kept domains that match the spam naming grammar and were spared only by the score threshold. Then upload to the Search Console disavow tool. Separately, determine the origin: if a vendor was engaged for links or traffic, cancel it, since that single purchase plausibly explains R1, R2 and R3 together. If not, treat it as negative SEO and say so in any reconsideration request. Then earn real South African links.",
     ],
     [
       "Confidence.",
@@ -607,7 +607,7 @@ audit.push(
     [
       ["[RP] Step 0 - check Search Console for a manual action", "S", "L", "Cobus"],
       ["R1 - block the GA4 bot traffic; switch reporting to impressions + position", "M", "L", "Cobus"],
-      ["R2 - generate, review and upload the disavow file", "M", "L", "Cobus"],
+      ["R2 - review and upload the generated disavow file (604 domains)", "S", "L", "Cobus"],
       ["R2 - identify and cancel whatever is generating the links and clicks", "S", "L", "Cobus"],
       ["R4 - add an H1 and a unique title to the homepage", "S", "L", "Web team"],
       ["[RP] Step 1 - deploy the noindex mu-plugin for the 944 thin pages", "S", "L", "Web team"],
@@ -667,7 +667,7 @@ ex.push(
     ["Action", "Effort", "Impact"],
     [
       ["Block the bot traffic and switch reporting to Search Console impressions and average position", "M", "L"],
-      ["Generate, review and upload the disavow file - and cancel whatever is generating the links", "M", "L"],
+      ["Review and upload the generated disavow file (604 domains) - and cancel whatever is generating the links", "S", "L"],
       ["Add an H1 and a unique title tag to the homepage", "S", "L"],
     ],
     [6560, 1400, 1400],
@@ -677,7 +677,7 @@ ex.push(P("These sit alongside, not instead of, the 4 August recovery pack - who
 
 ex.push(H("Read the full audit", HeadingLevel.HEADING_1));
 ex.push(P("juicy-designs-seo-audit.docx - measurement snapshot, 23-point validation scorecard, six red flags, seven yellow flags and a 19-item prioritised roadmap."));
-ex.push(P("Technical detail and fix instructions: fixes/AUGUST-ADDENDUM.md. Disavow generator: scripts/build-disavow.sh."));
+ex.push(P("Technical detail and fix instructions: fixes/AUGUST-ADDENDUM.md. Disavow file ready to review: fixes/disavow-juicydesigns.txt."));
 
 const exDoc = new Document({ styles, numbering, sections: [{ ...pageSetup, children: ex }] });
 
