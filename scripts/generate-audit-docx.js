@@ -215,7 +215,7 @@ audit.push(
     "Fix the measurement first. Until the bot traffic is blocked and reporting is rebuilt on Search Console impressions and average position, there is no reliable way to tell whether any recovery work is succeeding.",
   ),
 );
-audit.push(P("Health score: 14/100 (band F) - 2 critical, 5 high, 5 medium, 1 low. Computed as 100 − (Critical×15 + High×8 + Medium×3 + Low×1), excluding items already fixed. The score dropped 8 points on 8 August when the sitemap collapse (R7) was found.", { bold: true }));
+audit.push(P("Health score: 11/100 (band F) - 2 critical, 5 high, 6 medium, 1 low. Computed as 100 − (Critical×15 + High×8 + Medium×3 + Low×1), excluding items already fixed. Revised 8 August: R4 was retracted as a crawler artefact, and R7 (sitemap), R4b (/resources/ duplication) and Y8 (crawler blocking) were added. Note that both tools\u2019 own health scores - Semrush 83, Ubersuggest 98 - are computed over a partly failed crawl and should not be used until Y8 is fixed.", { bold: true }));
 
 // --- Measurement snapshot
 audit.push(H("Measurement snapshot", HeadingLevel.HEADING_1));
@@ -431,24 +431,33 @@ audit.push(
   ]),
 );
 
-audit.push(H("R4 - Homepage has no H1 and a duplicate title (High)", HeadingLevel.HEADING_2));
-audit.push(
-  ...finding([
-    [
-      "Evidence.",
-      "Semrush Site Audit issue 103 (missing H1) and issue 6 (duplicate title tag), both listing the homepage. Also affected by one or both: /services/, /case-studies/, /services/social-media-marketing/pricing/, /glossary/rich-snippet/, /glossary/commission-structure/, /blog/social-media-advertising-cost-south-africa/.",
-    ],
-    [
-      "Impact.",
-      "The homepage is the site’s biggest ranking asset and the page that lost most in the suppression - 2,033 clicks and 10,614 impressions, position 34.1 to 73.9. It is missing the most basic on-page signal there is.",
-    ],
-    [
-      "Fix.",
-      'Give the homepage one H1 carrying the primary head term, for example "Digital Marketing Agency in Pretoria", and make its title unique against the other six pages. One H1, one intent, one canonical per page.',
-    ],
-    ["Confidence.", "Confirmed."],
-  ]),
-);
+audit.push(H("R4 - RETRACTED: the homepage H1 and title are correct", HeadingLevel.HEADING_2));
+audit.push(...finding([
+  ["Retraction.", "The 7 August edition of this audit reported that the homepage had no H1 and a duplicate title, citing Semrush issues 103 and 6, at Confidence: Confirmed. That was wrong, and the error is corrected here rather than quietly removed."],
+  ["Evidence.", "Ubersuggest reports the title of all eight flagged pages as \"One moment, please...\" with an 8-word body - the Cloudflare bot challenge page. Both tools crawled a challenge interstitial, not the site. Fetched live on 8 August from SemrushBot, Googlebot and desktop user agents, every one of those pages returns HTTP 200 with exactly one H1, a meta description, a unique title and 2,458 to 6,908 words. The homepage H1 is \"Digital marketing agency in Pretoria\", identical under all three."],
+  ["What this invalidates.", "Semrush issues 6 (duplicate title, 7 pages), 101 (title too short, 3), 103 (missing H1, 7), 106 (missing meta description, 7), 112 (low text-to-HTML, 7) and 117 (low word count, 7); and Ubersuggest absent_h1_tags (8), have_title_duplicates (8), meta_description_empty (8), plus most of title_short and content_count_words. Roughly a third of the on-page issue count in both tools is an artefact."],
+  ["The real problem.", "A blocked crawler cannot report the issues that are genuinely there. Both health scores - Semrush 83, Ubersuggest 98 - are computed over a crawl that partly failed, so neither is trustworthy in either direction. See Y8 for the fix."],
+  ["Confidence.", "Confirmed."]
+]));
+
+audit.push(H("R4b - /resources/ is a second, unoptimised copy of the blog and FAQ (High)", HeadingLevel.HEADING_2));
+audit.push(table(
+  ["URL", "Title", "Canonical", "Duplicates"],
+  [
+    ["/resources/blogs", "Blog (4 chars)", "none", "/blog/"],
+    ["/resources/faqs", "FAQs (4 chars)", "none", "/faq/"],
+    ["/resources/faqs/client-service", "Frequently Asked Questions", "none", "/faq/"],
+    ["/blog/ (the real one)", "Digital Marketing & SEO Blog South Africa", "self", "-"],
+    ["/faq/ (the real one)", "Digital Marketing FAQs in Pretoria | Juicy Designs", "self", "-"]
+  ],
+  [3000, 3400, 1200, 1760]
+));
+audit.push(...finding([
+  ["Evidence.", "Fetched live on 8 August. Every /resources/ page lacks a canonical tag entirely, uses a four-character title with no brand suffix, and drops the trailing slash the rest of the site uses. /blog/ carries 32,572 words against 7,530 on /resources/blogs. All five /resources/ URLs appear in the 38-URL sitemap, along with two /resources/blogs articles, one carrying a 94-character title."],
+  ["Impact.", "The sitemap Google is pointed at (R7) omits the real 606-post blog and the real FAQ, and instead advertises a duplicate blog index, a duplicate FAQ index and two articles, none of which carry a canonical tag. That is a self-inflicted duplicate-content signal on a site already under suppression, and the genuine content is not advertised at all. The shared shape with R7 - 38 URLs, /resources/ paths, no trailing slashes - suggests both came from the same deploy."],
+  ["Fix.", "High-risk change (canonical and redirect) - stage and verify. 301 /resources/blogs to /blog/, /resources/faqs and /resources/faqs/client-service to /faq/, and the two /resources/blogs articles to their /blog/ equivalents. Remove all five from the sitemap in the same pass as R7. If /resources/ must stay, give every page a self-referencing canonical, a real title and a trailing slash - but consolidating is the better answer. Rollback: remove the redirect lines and the pages return."],
+  ["Confidence.", "Confirmed for the missing canonicals, thin titles and duplication. Likely for the shared-deploy origin with R7."]
+]));
 
 audit.push(H("R5 - Two AEO/GEO service pages are noindexed and unknown to Google (High)", HeadingLevel.HEADING_2));
 audit.push(
@@ -579,18 +588,21 @@ audit.push(
   ]),
 );
 
-audit.push(H("Y5 - On-page metadata gaps (Medium)", HeadingLevel.HEADING_2));
-audit.push(
-  ...finding([
-    [
-      "Evidence.",
-      "Semrush: 7 pages with no meta description, 11 where the H1 merely duplicates the title, 3 titles too short. Ubersuggest: 13 titles too long, 11 too short, 13 non-SEO-friendly URLs.",
-    ],
-    ["Impact.", "Degrades click-through and wastes the two elements with the most direct influence on how a result is presented. Not blocking, but compounding."],
-    ["Fix.", "Write unique descriptions of 150-160 characters; make each H1 say something the title does not."],
-    ["Confidence.", "Confirmed."],
-  ]),
-);
+audit.push(H("Y5 - Titles too long (Medium)", HeadingLevel.HEADING_2));
+audit.push(...finding([
+  ["Evidence.", "Ubersuggest title_long: 13 pages between 66 and 94 characters. This list survives the R4 retraction - these are real titles, not challenge pages. The two worst sit in /resources/: a 94-character title on the \"how to choose the best digital marketing agency for SEO, Google Ads and web design in Pretoria\" article, and a 72-character one on the Pretoria startup article, neither carrying the brand suffix the rest of the site uses. The remaining 11 are blog listicles in the 66 to 70 range."],
+  ["Impact.", "Titles beyond about 60 characters truncate in the SERP, so the differentiating words at the end are the ones lost. Not blocking, and mild at 66 to 70 characters; the two /resources/ outliers matter more and are resolved by R4b anyway."],
+  ["Fix.", "Trim the 13 titles to 60 characters or fewer, keeping the primary term in the first 30. Treat the /resources/ pair as part of the R4b consolidation rather than editing them in place."],
+  ["Confidence.", "Confirmed."]
+]));
+
+audit.push(H("Y8 - Cloudflare is challenging the audit crawlers (Medium)", HeadingLevel.HEADING_2));
+audit.push(...finding([
+  ["Evidence.", "See R4. Both Semrush and Ubersuggest received the Cloudflare challenge page - title \"One moment, please...\", 8-word body - for eight to eleven URLs in their 4 August crawls. Ubersuggest crawled from gateway 68.183.60.80."],
+  ["Impact.", "This is a measurement fault rather than a ranking fault, but it undermines every crawl-derived number on this site: both health scores, the on-page issue counts, and any before-and-after comparison run during the recovery. Google itself appears unaffected - the pages rank and Search Console shows no crawl anomaly - but the same rule set is what is challenging the audit tools."],
+  ["Fix.", "In Cloudflare, Security then WAF, allow SemrushBot and the Ubersuggest crawler by verified-bot category or documented IP range, and confirm Googlebot and Bingbot are exempt. Re-run both audits and re-score afterwards. Take care not to widen the rules so far that they re-admit the bot traffic in R1 - allowlist named crawlers, not broad user-agent patterns."],
+  ["Confidence.", "Confirmed for the false positives. Likely for Cloudflare as the mechanism; the rule was not inspected from inside the account."]
+]));
 
 audit.push(H("Y6 - Wrong URL in sitemap.xml (Low)", HeadingLevel.HEADING_2));
 audit.push(
@@ -632,7 +644,8 @@ audit.push(
       ["R1 - block the GA4 bot traffic; switch reporting to impressions + position", "M", "L", "Cobus"],
       ["R2 - review and upload the generated disavow file (604 domains)", "S", "L", "Cobus"],
       ["R2 - identify and cancel whatever is generating the links and clicks", "S", "L", "Cobus"],
-      ["R4 - add an H1 and a unique title to the homepage", "S", "L", "Web team"],
+      ["Y8 - allowlist SemrushBot and Ubersuggest in Cloudflare, then re-audit", "S", "M", "Cobus"],
+      ["R4b - consolidate /resources/ into /blog/ and /faq/", "M", "L", "Web team"],
       ["[RP] Step 1 - deploy the noindex mu-plugin for the 944 thin pages", "S", "L", "Web team"],
       ["[RP] Step 2 - remove self-serving review schema from the homepage", "S", "L", "Web team"],
       ["R5 - resolve the two noindexed AEO/GEO service pages", "S", "M", "Web team"],

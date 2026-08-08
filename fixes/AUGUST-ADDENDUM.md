@@ -442,6 +442,133 @@ now works against the recovery regardless of their quality.
 
 ---
 
+## A13 - Cloudflare is challenging the audit crawlers, so a third of the reported issues are false
+
+**This finding retracts red flag R4 from the 7 August audit.** That flag said the
+homepage had no H1 and a duplicate title. It does not.
+
+**Evidence.** Ubersuggest's `have_title_duplicates` report gives the title of all
+eight flagged pages as **`"One moment, please..."`** - the Cloudflare bot
+challenge page. Its `content_count_words` report gives those same pages a body of
+**8 words**. Both tools crawled a challenge interstitial, not the site.
+
+Fetched live on 8 August from three user agents (SemrushBot, Googlebot, a desktop
+browser), every one of those pages returns HTTP 200 with exactly one `<h1>`, a
+meta description, a unique title, and 2,458 to 6,908 words:
+
+| URL | H1 | Title | Words |
+|---|---|---|---|
+| `/` | 1 | Digital Marketing Agency in Pretoria \| Juicy Designs | 6,759 |
+| `/services/` | 1 | Pretoria Marketing & Design Agency \| Juicy Designs | 6,908 |
+| `/case-studies/` | 1 | Case Studies & Results \| Juicy Designs South Africa | 3,541 |
+| `/services/social-media-marketing/pricing/` | 1 | Social Media Pricing South Africa \| Management Rates | 4,646 |
+| `/glossary/rich-snippet/` | 1 | Rich Snippet: Enhanced Google Search Results Guide | 2,458 |
+| `/glossary/commission-structure/` | 1 | Commission Structure: Types and Rates | 2,569 |
+| `/blog/social-media-advertising-cost-south-africa/` | 1 | Social media advertising costs in South Africa | 4,126 |
+
+The homepage H1 is `Digital marketing agency in Pretoria`, identical under all
+three user agents.
+
+**Which reported issues this invalidates:**
+
+| Tool | Issue | Count | Verdict |
+|---|---|---|---|
+| Semrush | 6 - Duplicate title tag | 7 | False |
+| Semrush | 101 - Title too short | 3 | False |
+| Semrush | 103 - Missing H1 | 7 | False |
+| Semrush | 106 - Missing meta description | 7 | False |
+| Semrush | 112 - Low text-to-HTML ratio | 7 | False |
+| Semrush | 117 - Low word count | 7 | False |
+| Ubersuggest | `absent_h1_tags` | 8 | False |
+| Ubersuggest | `have_title_duplicates` | 8 | False |
+| Ubersuggest | `meta_description_empty` | 8 | False |
+| Ubersuggest | `title_short` | 7 of 11 | False (4 are real, see A14) |
+| Ubersuggest | `content_count_words` | 7 of 11 | False (4 are real, see A14) |
+
+**Impact.** Two ways round, and the second matters more.
+
+First, roughly a third of the on-page issue count in both tools is an artefact.
+Acting on it means "fixing" markup that is already correct. The 7 August audit
+made exactly that mistake in R4.
+
+Second, and worse: **a blocked crawler cannot report the issues that are really
+there.** Both tools' health scores (Semrush 83, Ubersuggest 98) are computed over
+a crawl that partly failed, so they are not trustworthy in either direction.
+Semrush's score fell 100 to 83 and Ubersuggest's 100 to 98 around this crawl,
+which is consistent with challenge responses appearing rather than with the site
+degrading.
+
+Google is not obviously affected - the pages rank and Search Console shows no
+crawl anomaly - but the same rule set is what is challenging Semrush and
+Ubersuggest, and it is worth confirming Googlebot is exempt.
+
+**Fix.**
+1. Cloudflare dashboard, Security → WAF → Tools (or a custom rule): allow
+   `SemrushBot` and Ubersuggest's crawler. Ubersuggest's crawl came from
+   `68.183.60.80` (its status response reports the gateway address; use the
+   documented IP range rather than that single address).
+2. Confirm the verified-bot allowance covers Googlebot and Bingbot.
+3. Re-run both audits and re-score. **Do not act on any on-page finding in the
+   4 August crawls until this is done.**
+4. Take care not to widen the rules so far that they re-admit the bot traffic in
+   A1. Allowlist named crawlers, not broad user-agent patterns.
+
+**Confidence: Confirmed** for the false positives. **Likely** for Cloudflare as
+the mechanism - the challenge-page title and 8-word body are its signature, but
+the rule itself was not inspected from inside the account.
+
+---
+
+## A14 - /resources/ is a second, unoptimised copy of the blog and FAQ
+
+**Evidence.** Three URLs survive the A13 filter as genuinely thin, and they form
+a pattern. Fetched live on 8 August:
+
+| URL | Title | H1 | Canonical | Duplicates |
+|---|---|---|---|---|
+| `/resources/blogs` | `Blog` (4 chars) | Blog | **none** | `/blog/` |
+| `/resources/faqs` | `FAQs` (4 chars) | FAQs | **none** | `/faq/` |
+| `/resources/faqs/client-service` | `Frequently Asked Questions` | Frequently Asked Questions | **none** | `/faq/` |
+
+Against the real sections:
+
+| URL | Title | Canonical | Words |
+|---|---|---|---|
+| `/blog/` | Digital Marketing & SEO Blog South Africa | `/blog/` | 32,572 |
+| `/faq/` | Digital Marketing FAQs in Pretoria \| Juicy Designs | `/faq/` | 3,063 |
+
+Every `/resources/` page lacks a canonical tag entirely, uses a four-character
+title with no brand suffix, and drops the trailing slash the rest of the site
+uses. All of them appear in the 38-URL `/sitemap.xml`, along with two
+`/resources/blogs/...` articles - one of which carries a 94-character title.
+
+**Impact.** The sitemap that Google is pointed at (finding A11) omits the real
+606-post blog and the real FAQ, and instead advertises a duplicate blog index, a
+duplicate FAQ index, and two articles - none of which carry a canonical tag. That
+is a self-inflicted duplicate-content signal on a site already under suppression,
+and it is being actively advertised while the genuine content is not.
+
+The shared shape with A11 - 38 URLs, `/resources/` paths, no trailing slashes -
+suggests both came from the same deploy.
+
+**Fix. High-risk change (canonical / redirect) - stage and verify.**
+1. Decide which section is canonical. `/blog/` and `/faq/` are the real ones:
+   more content, correct titles, self-referencing canonicals, and they hold the
+   rankings.
+2. 301 `/resources/blogs` → `/blog/`, `/resources/faqs` → `/faq/`, and
+   `/resources/faqs/client-service` → `/faq/`. Redirect the two
+   `/resources/blogs/...` articles to their `/blog/` equivalents if they exist,
+   or to `/blog/` if not.
+3. Remove all five `/resources/` URLs from the sitemap in the same pass as A11.
+4. If `/resources/` must stay, give every page a self-referencing canonical, a
+   real title, and a trailing slash - but consolidating is the better answer.
+   **Rollback:** remove the redirect lines; the pages return.
+
+**Confidence: Confirmed** for the missing canonicals, thin titles and
+duplication. **Likely** for the shared-deploy origin with A11.
+
+---
+
 ## Sequencing against the July pack
 
 | Order | Work | Source |
