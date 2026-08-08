@@ -215,7 +215,7 @@ audit.push(
     "Fix the measurement first. Until the bot traffic is blocked and reporting is rebuilt on Search Console impressions and average position, there is no reliable way to tell whether any recovery work is succeeding.",
   ),
 );
-audit.push(P("Health score: 22/100 (band F) - 2 critical, 4 high, 5 medium, 1 low. Computed as 100 − (Critical×15 + High×8 + Medium×3 + Low×1), excluding items already fixed.", { bold: true }));
+audit.push(P("Health score: 14/100 (band F) - 2 critical, 5 high, 5 medium, 1 low. Computed as 100 − (Critical×15 + High×8 + Medium×3 + Low×1), excluding items already fixed. The score dropped 8 points on 8 August when the sitemap collapse (R7) was found.", { bold: true }));
 
 // --- Measurement snapshot
 audit.push(H("Measurement snapshot", HeadingLevel.HEADING_1));
@@ -486,6 +486,29 @@ audit.push(
 );
 
 // --- Yellow flags
+audit.push(H("R7 - /sitemap.xml has collapsed from 1,763 URLs to 38 (High)", HeadingLevel.HEADING_2));
+audit.push(table(
+  ["Sitemap", "Submitted URLs", "Last downloaded"],
+  [
+    ["https://.../sitemap.xml", "1,763", "2026-07-31"],
+    ["http://.../sitemap.xml (duplicate property)", "38", "2026-08-07"],
+    ["sitemap-blog.xml", "606", "2026-08-06"],
+    ["sitemap-glossary.xml", "721", "2026-08-05"],
+    ["sitemap-locations.xml", "262", "2026-08-03"],
+    ["sitemap-images.xml", "171", "2026-08-06"],
+    ["sitemap-services.xml", "127", "2026-08-01"],
+    ["sitemap-pages.xml", "53", "2026-08-08"]
+  ],
+  [4360, 2500, 2500]
+));
+audit.push(...finding([
+  ["Evidence.", "Fetched live on 8 August, /sitemap.xml returns a flat urlset of 38 URLs containing no /services/, /blog/, /glossary/ or /locations/ entries, and listing three non-HTML files as pages: /llms.txt, /facts.json and /robots.txt. Search Console records the same URL as having held 1,763 URLs when last downloaded on 31 July, so the file shrank at some point after that date. The six child sitemaps are all still live and Processed, so index coverage has not collapsed with it."],
+  ["", "The problem is discovery. robots.txt advertises only /sitemap.xml; that file is a flat urlset containing zero sitemap elements, so it does not reference the children. They are reachable only because they were submitted by hand in Search Console on 30 June. Nothing on the site links them."],
+  ["Impact.", "Any crawler discovering sitemaps the normal way sees 38 pages instead of roughly 1,769. That is not hypothetical: a competitor gap-analysis tool run on 8 August reported \"Total Pages 37\" for this site and concluded it was smaller than a competitor with 163 pages, when the real figure is 389 service pages, 606 blog posts, 721 glossary terms and 53 core pages. It also lands badly on the recovery pack Step 6, which resubmits sitemaps after the noindex triage - resubmitting the current file tells Google the site is 38 pages."],
+  ["Fix.", "Regenerate /sitemap.xml as a sitemapindex referencing the six child sitemaps, which is the shape they were built for. Drop /llms.txt, /facts.json and /robots.txt from it. Fix the /google-ads-quote entry at the same time (Y6). After the noindex triage ships, drop the noindexed glossary and location URLs from their child sitemaps. Remove the http:// property submission in Search Console, which is already on the Step 6 list and is currently the most recently crawled copy. Verify with scripts/check-sitemap.sh, which gates on a per-sitemap URL floor so a future collapse fails loudly."],
+  ["Confidence.", "Confirmed."]
+]));
+
 audit.push(H("Yellow flags", HeadingLevel.HEADING_1));
 
 audit.push(H("Y1 - Keyword cannibalisation across seven query clusters (Medium)", HeadingLevel.HEADING_2));
@@ -613,7 +636,8 @@ audit.push(
       ["[RP] Step 1 - deploy the noindex mu-plugin for the 944 thin pages", "S", "L", "Web team"],
       ["[RP] Step 2 - remove self-serving review schema from the homepage", "S", "L", "Web team"],
       ["R5 - resolve the two noindexed AEO/GEO service pages", "S", "M", "Web team"],
-      ["Y6 - fix the /google-ads-quote sitemap entry and resubmit", "S", "M", "Web team"],
+      ["R7 - rebuild /sitemap.xml as a sitemapindex; drop non-HTML entries", "S", "L", "Web team"],
+      ["Y6 - fix the /google-ads-quote sitemap entry and resubmit (same pass as R7)", "S", "M", "Web team"],
       ["Y2 - fix the template emitting %7D into hrefs", "S", "M", "Web team"],
       ["[RP] Step 3 - deploy the two 301 redirects, one at a time", "S", "M", "Web team"],
       ["R6 - fix schema markup on the /tools/ and blog templates", "M", "M", "Web team"],
@@ -641,7 +665,7 @@ ex.push(...titleBlock("SEO Audit - Executive Summary"));
 ex.push(H("Headline", HeadingLevel.HEADING_1));
 ex.push(
   P(
-    "The site has been under sitewide Google suppression since 17 July (impressions −88.5%, average position 27.3 → 70.4), and the analytics being used to track the recovery are measuring bot traffic rather than customers - so the single biggest lever right now is restoring trustworthy measurement before judging any of the recovery work.",
+    "The site has been under sitewide Google suppression since 17 July (impressions −88.5%, average position 27.3 to 70.4), the analytics used to track the recovery are measuring bot traffic rather than customers, and the sitemap has quietly collapsed to 38 of roughly 1,769 URLs - so the single biggest lever now is restoring trustworthy measurement and discovery before judging any recovery work.",
   ),
 );
 
@@ -650,7 +674,7 @@ ex.push(
   ...[
     'GA4 records 115,318 "google / organic" sessions in a window where Search Console reports 3,483 clicks - a 33x gap, at 99.2% engagement and zero conversions. Ubersuggest is fed from the same connection and reports 114,803 traffic for a site Semrush models at 32 visits per month.',
     "The backlink profile contains three spam networks - several hundred auto-generated directory domains, a fake press-release network, and a Moldovan link-shortener PBN - most of which appeared in mid-June, weeks before the suppression. One anchor text is literally an advert for buying PBN links.",
-    "The homepage, which lost more than any other page (position 34.1 → 73.9), has no H1 and a duplicate title tag.",
+    "/sitemap.xml has collapsed from 1,763 URLs to 38, dropping every service page, blog post and glossary term. robots.txt points only at that file and it is not an index, so a crawler discovering the site normally sees 38 pages instead of roughly 1,769. The homepage separately has no H1 and a duplicate title tag.",
   ].map(
     (t, i) =>
       new Paragraph({
@@ -668,7 +692,7 @@ ex.push(
     [
       ["Block the bot traffic and switch reporting to Search Console impressions and average position", "M", "L"],
       ["Review and upload the generated disavow file (604 domains) - and cancel whatever is generating the links", "S", "L"],
-      ["Add an H1 and a unique title tag to the homepage", "S", "L"],
+      ["Rebuild /sitemap.xml as a sitemapindex, and give the homepage an H1 and a unique title", "S", "L"],
     ],
     [6560, 1400, 1400],
   ),

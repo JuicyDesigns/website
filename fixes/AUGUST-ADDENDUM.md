@@ -327,6 +327,121 @@ deleting the physical copy - that line is still commented out. **High-risk chang
 
 ---
 
+## A11 - /sitemap.xml has collapsed from 1,763 URLs to 38
+
+**Evidence.** Fetched live on 8 August, `https://www.juicydesigns.co.za/sitemap.xml`
+returns a flat `<urlset>` containing **38 URLs**. It contains no `/services/`, no
+`/blog/`, no `/glossary/` and no `/locations/` entries, and it lists three
+non-HTML files as if they were pages: `/llms.txt`, `/facts.json`, `/robots.txt`.
+
+Search Console's sitemap report contradicts that. It records the same URL as
+having contained **web: 1763** URLs when last downloaded on 2026-07-31:
+
+| Sitemap | Submitted URLs | Last downloaded |
+|---|---|---|
+| `https://.../sitemap.xml` | **1,763** | 2026-07-31 |
+| `http://.../sitemap.xml` (duplicate property) | **38** | 2026-08-07 |
+| `sitemap-blog.xml` | 606 | 2026-08-06 |
+| `sitemap-glossary.xml` | 721 | 2026-08-05 |
+| `sitemap-locations.xml` | 262 | 2026-08-03 |
+| `sitemap-images.xml` | 171 | 2026-08-06 |
+| `sitemap-services.xml` | 127 | 2026-08-01 |
+| `sitemap-pages.xml` | 53 | 2026-08-08 |
+
+The 38-URL figure against the `http://` submission, downloaded on 7 August,
+matches what the file serves today. So the file shrank from 1,763 to 38 at some
+point after 31 July.
+
+The child sitemaps are all still live, still Processed, and still being
+downloaded, so index coverage has not collapsed with it. But:
+
+- `robots.txt` advertises only `Sitemap: https://www.juicydesigns.co.za/sitemap.xml`.
+- That file is a flat `<urlset>`, **not** a `<sitemapindex>` - it contains zero
+  `<sitemap>` elements, so it does not reference the six child sitemaps.
+- The children are therefore reachable only because they were submitted by hand
+  in Search Console on 2026-06-30. Nothing on the site links them.
+
+**Impact.** Any crawler that discovers sitemaps the normal way - via robots.txt -
+sees 38 pages instead of roughly 1,769. That is not hypothetical: a competitor
+gap-analysis tool run on 8 August reported "Total Pages 37" for this site and
+concluded it was smaller than a competitor with 163 pages. The real figure is
+389 service pages, 606 blog posts, 721 glossary terms and 53 core pages.
+
+It also lands badly on `RECOVERY-ACTIONS.md` Step 6, which resubmits sitemaps
+after the noindex triage. Resubmitting the current `/sitemap.xml` tells Google
+the site is 38 pages.
+
+**Fix.**
+1. Regenerate `/sitemap.xml` as a proper `<sitemapindex>` referencing
+   `sitemap-pages.xml`, `sitemap-services.xml`, `sitemap-blog.xml`,
+   `sitemap-glossary.xml`, `sitemap-locations.xml` and `sitemap-images.xml`.
+   That is the shape the six child files were built for.
+2. Drop `/llms.txt`, `/facts.json` and `/robots.txt` from the sitemap. Sitemaps
+   list indexable HTML pages; these three are discovery files, already reachable,
+   and listing them invites soft-404 style coverage noise.
+3. Fix `/google-ads-quote` while regenerating (finding A9).
+4. After the noindex triage ships, drop the noindexed glossary and location URLs
+   from their child sitemaps rather than leaving them listed.
+5. Remove the `http://` property submission in Search Console. It is already on
+   the July pack's Step 6 list and is currently the most recently crawled copy.
+6. Verify with `./scripts/check-sitemap.sh`.
+
+**Confidence: Confirmed.**
+
+---
+
+## A12 - the 8 August competitor gap report is not actionable as written
+
+**Evidence.** A topic gap analysis dated 8 August compared this site against
+`juanq.co.za` and reported 20 gaps, 12 of them "money page gaps ... high priority
+for revenue impact". Checked against the live child sitemaps (1,048 URLs plus 721
+glossary terms), **11 of the 12 already exist as dedicated service pages**:
+
+| Reported gap | Reality |
+|---|---|
+| Email Marketing (ranked #1) | `/services/email-marketing/` plus Cape Town and Durban variants |
+| Social Media Management (#2) | `/services/social-media-marketing/` |
+| Lead Generation Strategy (#5) | `/services/lead-generation/` plus city variants |
+| Hospitality Digital Marketing (#4) | `/services/hospitality-marketing/` |
+| Medical Practice Marketing | `/services/healthcare-marketing/` |
+| Online Reputation Management | `/services/reputation-management/` |
+| Content Creation Service | `/services/content-marketing/` plus city variants |
+| Travel and Tourism Marketing | `/services/tourism-marketing/` |
+| Graphic Design Service | `/services/graphic-design/` plus city variants |
+| Instagram Marketing | `/services/instagram-advertising-{pretoria,cape-town,durban,johannesburg}/` |
+| Remarketing / Retargeting | no service page; 2 blog posts |
+| Pinterest Marketing | no service page; 1 tangential blog post |
+
+The scale comparison is also inverted. The report gives this site 37 pages against
+the competitor's 163. The real count is roughly 1,769 - about **11x the
+competitor**, not a fifth of it.
+
+**Impact.** The report was produced by crawling `/sitemap.xml`, which returns 38
+URLs (finding A11). Every conclusion downstream of that inherits the error.
+
+Acting on it literally would mean publishing 12 service pages and 8 blog posts
+that overwhelmingly duplicate existing ones. On a site under an active
+scaled-content suppression, on top of 389 templated service-by-city pages that
+already exist, that is the exact pattern `RECOVERY-ACTIONS.md` diagnoses as the
+cause. It would also deepen the cannibalisation documented in the audit's
+finding Y1.
+
+**Fix.** Do not action the report as written. After A11 is fixed, re-run the gap
+analysis so the tool can see the whole site. Of the two genuine gaps:
+
+- **Remarketing / retargeting** is worth a service page. It is a real commercial
+  service, Ubersuggest already tracks `google remarketing south africa`, and two
+  blog posts exist to link from. One page, written properly, not a city set.
+- **Pinterest** is not worth one. Pinterest is marginal for South African B2B and
+  the site has no demand signal for it.
+
+Neither is urgent. Both should wait until the suppression lifts - adding pages
+now works against the recovery regardless of their quality.
+
+**Confidence: Confirmed.**
+
+---
+
 ## Sequencing against the July pack
 
 | Order | Work | Source |
