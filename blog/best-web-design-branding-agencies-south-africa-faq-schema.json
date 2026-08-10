@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.juicydesigns.co.za/blog/best-web-design-branding-agencies-south-africa/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much do branding and web design services cost for small businesses in South Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Juicy Designs' management fee starts at R6,000 per month excluding ad spend, with transparent pricing and no long-term lock-ins. Smaller once-off scopes cost less, with the full range running from roughly R1,800 to R50,000+. You commit to a three-month onboarding period, then it runs month-to-month. Ad spend for Google or Meta is billed separately and never marked up."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What services does Juicy Designs offer to small and medium businesses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We cover branding and logos, web design and build, SEO, AI-driven search optimisation (AEO, GEO, and AI Overviews), Google Ads, Meta advertising, social media, and lead generation. Most clients start with a website and add the rest as it makes sense for their budget."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where does Juicy Designs serve clients in South Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We're based in Pretoria at 14 Gordon Verster Road and work across Gauteng, including Centurion, Midrand, Sandton, Johannesburg, and Randburg. We also take on clients nationally in Cape Town, Durban, and other major cities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an AI Visibility Audit and do I need one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AI Visibility Audit checks whether tools like ChatGPT, Perplexity, and Google's AI Overviews currently mention your business when someone asks about your kind of service. We turn that into an AI Readiness Score so you can see where you stand. If you rely on new customers finding you online, it's worth knowing whether the fastest-growing search tools can even see you yet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Juicy Designs a good fit if I only need a logo or only a website?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We take on once-off projects like a logo or a standalone website, as well as ongoing monthly work. Tell us the scope on the first call and we'll quote for exactly that, not a bundle you didn't ask for."
+      }
+    }
+  ]
+}
