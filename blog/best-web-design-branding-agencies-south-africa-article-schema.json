@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.juicydesigns.co.za/blog/best-web-design-branding-agencies-south-africa/#article",
+      "headline": "Best web design and branding agencies in South Africa for SMBs",
+      "description": "Founder-led web design and branding for South African SMBs. Juicy Designs builds brands, websites and marketing systems. Rated 4.9 since 2015.",
+      "url": "https://www.juicydesigns.co.za/blog/best-web-design-branding-agencies-south-africa/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.juicydesigns.co.za/blog/best-web-design-branding-agencies-south-africa/"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.juicydesigns.co.za/images/blog/best-web-design-branding-agencies-south-africa-hero.jpg"
+      },
+      "author": {
+        "@id": "https://www.juicydesigns.co.za/team/cobus-van-der-westhuizen/#person"
+      },
+      "publisher": {
+        "@id": "https://www.juicydesigns.co.za/#organization"
+      },
+      "inLanguage": "en-ZA",
+      "datePublished": "2026-08-08T08:00:00+02:00",
+      "dateModified": "2026-08-08T08:00:00+02:00"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.juicydesigns.co.za/blog/best-web-design-branding-agencies-south-africa/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.juicydesigns.co.za/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.juicydesigns.co.za/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Best web design and branding agencies in South Africa for SMBs",
+          "item": "https://www.juicydesigns.co.za/blog/best-web-design-branding-agencies-south-africa/"
+        }
+      ]
+    }
+  ]
+}
