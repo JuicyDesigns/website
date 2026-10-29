@@ -2,7 +2,8 @@
 //
 // Produces juicy-designs-aeo-audit.docx (full audit) and
 // juicy-designs-aeo-audit-summary.docx (executive one-pager) from the
-// 29 October 2026 AEO audit of juicydesigns.co.za.
+// 29 October 2026 AEO audit of juicydesigns.co.za, including the check of the
+// GSC Coverage and Performance exports supplied the same day.
 //
 // USAGE
 //   npm install docx
@@ -218,7 +219,7 @@ audit.push(
 );
 audit.push(
   P(
-    "Health score: 24/100 (band F) - 1 critical, 5 high, 6 medium, 3 low. Composite GEO score: 54/100 (poor). Both are computed below. The sitewide suppression of 17 July lifted on 26 September, and impressions are back to about 72% of the July peak. But average position has worsened every week since, from 15.7 to 23.3, so the recovery is not yet secure. The fixes in this audit are the ones that protect it.",
+    "Health score: 23/100 (band F) - 1 critical, 5 high, 6 medium, 4 low. Composite GEO score: 54/100 (poor). Both are computed below. The sitewide suppression of 17 July lifted on 26 September, and impressions are back to about 72% of the July peak. But average position has worsened every week since, from 15.7 to 23.3, so the recovery is not yet secure. The fixes in this audit are the ones that protect it.",
     { bold: true },
   ),
 );
@@ -243,6 +244,8 @@ audit.push(
       ["Indexable URLs in sitemaps", "2,041 (837 blog, 721 glossary,\n312 location, 119 service, 52 page)", "Crawl", "All return 200 and index,follow"],
       ["URL inspection (10 key URLs)", "10/10 submitted and indexed", "GSC", "Self-referencing canonicals"],
       ["Google AI Overview citation", "Cited in 1 of 2 AIOs checked", "SERP", "Cited: SEO cost. Not cited: website cost"],
+      ["Pages indexed / not indexed", "1,901 / 348 (23 Oct)", "GSC export", "Indexed count up from 1,670 on 5 Aug"],
+      ["AI-feature impressions\n(28 Jul-27 Oct)", "10,433 across 509 pages", "GSC export", "26 a day before 26 Sep, 277 a day since"],
       ["Organic keywords (ZA)", "41 (2 in top 3)", "Ubersuggest", "Core \"web design pretoria\" terms at 104-112"],
       ["Referring domains", "472 (92% to homepage)", "Ubersuggest", "Inner pages have almost no links"],
       ["AI-assistant style queries in GSC", "Present, positions 1.7-8.1", "GSC", "Evidence that AI grounding searches reach the site"],
@@ -250,6 +253,66 @@ audit.push(
       ["ChatGPT / Perplexity / Gemini / Copilot mentions", "Not measured", "Ahrefs, Ubersuggest", "Ahrefs plan has no API access; no Ubersuggest brand project"],
     ],
     [2300, 2200, 1500, 3360],
+  ),
+);
+
+// --- GSC export verification
+audit.push(H("GSC export verification", HeadingLevel.HEADING_1));
+audit.push(
+  P(
+    "Ten Search Console exports dated 29 October (Performance, Generative AI features, Coverage and four Coverage drilldowns) were supplied with a draft \"top 100 fixes\" list. Every URL in the drilldowns was requested live on 29 October, following redirects. GSC reports when Google last saw a problem; the live check shows whether it is still there.",
+  ),
+);
+audit.push(H("Coverage issues, checked live", HeadingLevel.HEADING_2));
+audit.push(
+  table(
+    ["GSC reason", "URLs", "Live result on 29 October", "Action"],
+    [
+      ["Server error (5xx)", "12", "All 12 now resolve. Last crawled 19-20 Jul, the same days as the suppression. 7 redirect, 5 return 200", "Validate fix in GSC. Point /downloads/ and the TikTok PDF somewhere relevant, not /blog/ (Y9)"],
+      ["Page with redirect", "118", "All 301 to a 200. 90 take 1 hop, 27 take 2 (non-www, then trailing slash), 1 takes 3", "Healthy outcome. Collapse the 2-hop chains (Y9)"],
+      ["Crawled - currently not indexed", "85", "73 are sitemap URLs. 63 are indexable HTML: 26 service (19 of them city pages), 23 glossary, 23 blog. The rest are files such as robots.txt, llms.txt and JS", "Google is already declining the programmatic pages (supports R3). Files need no action"],
+      ["Discovered - currently not indexed", "65", "64 are sitemap URLs returning 200, down from 121 on 5 Aug. One /resources/ URL redirects to a 404", "Will shrink as R3 and R5 cut the URL count"],
+      ["Not found (404) / noindex / alternate canonical / 403 / redirect error", "45 / 6 / 15 / 1 / 1", "Not exported at URL level, so not checked", "Export the drilldowns and triage the 404s by inbound links"],
+    ],
+    [2000, 900, 3760, 2700],
+  ),
+);
+audit.push(H("What the click data can and cannot show", HeadingLevel.HEADING_2));
+audit.push(
+  P(
+    "The Performance export reports 3,928 clicks over three months, 87.5% of them to the homepage, with desktop CTR at 4.37% against 1.02% on mobile. Those figures cannot be used as they stand. Of the 3,423 clicks attributed to the top 1,000 queries, 1,820 are branded and 1,344 come from just five Pretoria queries clicked 43-91% of the time at positions 72-81. That is the scripted-click pattern documented in August, and it ended on 14 September. Only 259 clicks came from ordinary non-branded queries. Daily clicks averaged 69 before 14 September and 14 since. The homepage share and the desktop-versus-mobile CTR gap are artefacts of the scripted clicks, not user behaviour, so they should not drive title rewrites or mobile work.",
+  ),
+);
+audit.push(
+  P(
+    "The Generative AI features export is the most useful AEO baseline available. Pages appeared in AI features 10,433 times in three months, across 509 pages. Daily AI-feature impressions rose from about 26 to about 277 when the suppression lifted on 26 September. The top pages are the homepage (2,059), /blog/facebook-ads-cost-south-africa/ (778) and /services/graphic-design/pricing/ (693). This measures appearances in Google's AI features, not citations by ChatGPT or other assistants.",
+  ),
+);
+audit.push(H("Status of the supplied top 100 list", HeadingLevel.HEADING_2));
+audit.push(
+  table(
+    ["Items in the draft list", "Status", "Note"],
+    [
+      ["01, 11, 13, 14 (5xx)", "Resolved", "All 12 URLs resolve live. Validate in GSC and fix the /downloads/ redirect target"],
+      ["02 (bot challenge)", "Confirmed, critical", "See R1. Ubersuggest's crawler was served the challenge on the homepage itself, so it is not limited to two URLs"],
+      ["03-06, 15-16, 31-32 (redirects, 404s, exclusions)", "Partly confirmed", "Folded into Y9, R3 and R5 above"],
+      ["09, 59, 61-62 (homepage share, low-CTR titles)", "Based on contaminated data", "Re-assess on post-14 September data only"],
+      ["10, 96-98 (GA4 lead tracking)", "Confirmed", "August audit found 0 key events in 120,957 sessions. Roadmap item 11"],
+      ["12 (/services/search-engine-optimisation/)", "Resolved", "It 301s to /services/seo/ as planned"],
+      ["17-25 (HTTPS, www, canonicals, sitemaps, robots, rendering)", "Pass", "Checked across 2,041 URLs. No action beyond R1 and Y9"],
+      ["26-29 (Core Web Vitals)", "Pass", "LCP 1.5 s, CLS 0, INP 80 ms. Low priority"],
+      ["40, 95 (glossary, doorway risk)", "Confirmed, high", "See R3"],
+      ["46-48, 57 (cannibalisation, SEO/AEO/GEO overlap)", "Confirmed, high", "See R5"],
+      ["66-68, 83, 86 (case studies, claims, schema)", "Confirmed", "See R2, Y1 and Y2"],
+      ["76-90 (AEO and GEO)", "Confirmed", "See R6, Y3 and Y4"],
+      ["82 (BreadcrumbList)", "No fault", "Markup is valid. GSC's \"Unnamed item\" label is cosmetic"],
+    ],
+    [3300, 1800, 4260],
+  ),
+);
+audit.push(
+  P(
+    "Items not listed are sound practice but generic. Under audit-rigor rules they are ongoing hygiene, not findings. The roadmap below is ordered by impact.",
   ),
 );
 
@@ -324,7 +387,7 @@ audit.push(
 audit.push(H("Scores", HeadingLevel.HEADING_2));
 audit.push(
   P(
-    "Health score = 100 - (1 critical x 15 + 5 high x 8 + 6 medium x 3 + 3 low x 1) = 24 (band F).",
+    "Health score = 100 - (1 critical x 15 + 5 high x 8 + 6 medium x 3 + 4 low x 1) = 23 (band F).",
   ),
 );
 audit.push(
@@ -389,7 +452,7 @@ audit.push(H("R1. Cloudflare is serving a cached bot-check page instead of conte
 audit.push(
   ...finding([
     ["Finding.", "/contact/ and /services/social-media-marketing/ return the origin's anti-bot interstitial (\"One moment, please... Please wait while your request is being verified\") with HTTP 200, to every user agent tested: Chrome, Googlebot, GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, bingbot and curl."],
-    ["Evidence.", "Response headers show cf-cache-status: HIT with age climbing from 187 s to over 420 s, which is past the origin's own cache-control: private, max-age=360. So Cloudflare is caching a response the origin marked private, under an edge TTL override. The other 2,039 URLs were served normally in a full sweep at 12:07 UTC on 29 October."],
+    ["Evidence.", "Response headers show cf-cache-status: HIT with age climbing from 187 s to over 420 s, which is past the origin's own cache-control: private, max-age=360. So Cloudflare is caching a response the origin marked private, under an edge TTL override. The other 2,039 URLs were served normally in a full sweep at 12:07 UTC on 29 October. /contact/ was still serving the challenge more than 30 minutes later. Ubersuggest's site-audit crawler was separately served the same page on the homepage, which is why its audit scores 43/100 from a single page."],
     ["Impact.", "The contact page is the conversion page. Any crawler that fetches these URLs while the bad copy is cached indexes an 8-word placeholder, and AI assistants fetching live (ChatGPT-User, Claude-User, Perplexity-User) get nothing to cite. Because the server answers 200, not 503, nothing flags the problem. Which URLs are affected will change over time, depending on what the origin challenges next."],
     ["Fix.", "1. Purge both URLs in Cloudflare now. 2. In the Cloudflare cache rule, respect origin cache-control so that private responses are never cached; or bypass the cache when the response title is \"One moment, please...\", or when the origin sends no x-turbo-charged-by header (cached good pages carry it, challenged pages do not). 3. In the origin's bot protection (LiteSpeed or Imunify360), allowlist Cloudflare's verified-bot IP ranges and make the challenge answer 503 with Retry-After instead of 200. 4. Add a monitor that alerts when any key URL's <title> is \"One moment, please...\" or \"Loader\". This changes caching and crawl behaviour, so stage it and confirm. Rollback: disable the new cache rule."],
     ["Confidence.", "Confirmed for the two URLs. The origin-side trigger is likely, not proven."],
@@ -411,7 +474,7 @@ audit.push(H("R3. The programmatic glossary and location pages are still indexab
 audit.push(
   ...finding([
     ["Finding.", "The 721 /glossary/ pages and 312 location pages (such as /services/web-design-paarl/) return index,follow and remain in sitemap-glossary.xml and sitemap-locations.xml. The noindex step in the July and August packs (fixes/wp-noindex-mu-plugin.php, fixes/noindex-glossary.txt, fixes/noindex-locations.txt) has not been applied."],
-    ["Evidence.", "Live robots meta on every sampled page; GSC list_sitemaps shows both sitemaps submitted and downloaded in the last week. The Paarl page promises \"Gauteng-calibre web design... built remote-first for Paarl businesses\", which is a template filled in per town."],
+    ["Evidence.", "Live robots meta on every sampled page; GSC list_sitemaps shows both sitemaps submitted and downloaded in the last week. The Paarl page promises \"Gauteng-calibre web design... built remote-first for Paarl businesses\", which is a template filled in per town. The GSC Coverage export shows Google has already crawled and declined to index 19 city service pages and 23 glossary pages."],
     ["Impact.", "These 1,033 pages are half the site's indexable URLs, and they match the scaled-content pattern Google's spam policy describes. The 26 September recovery came during the September spam update, so another update could reverse it while they remain."],
     ["Fix.", "Apply the prepared noindex lists, keeping the pages that earn impressions (fixes/keep-and-improve.csv), then remove the two sitemaps from the index file and from GSC. Adding noindex is a high-risk change, so stage and confirm it. Rollback: remove the mu-plugin."],
     ["Confidence.", "Confirmed."],
@@ -532,7 +595,14 @@ audit.push(
   ),
 );
 
-audit.push(H("Y9. Sitemap housekeeping in Search Console (low)", HeadingLevel.HEADING_2));
+audit.push(H("Y9. Redirect chains and irrelevant redirect targets (low)", HeadingLevel.HEADING_2));
+audit.push(
+  P(
+    "28 of the 118 redirecting URLs in GSC take more than one hop. For example, juicydesigns.co.za/glossary/kpi goes to www, then adds the trailing slash. Make the non-www rule redirect straight to the final https://www URL with the trailing slash. /downloads/ and /downloads/TikTok Advertising South Africa.pdf redirect to /blog/, which Google treats as a soft 404. Restore the PDF, or point both at /services/tiktok-advertising-south-africa/, or return 410. The URL ?domain={search_term_string} that GSC reported as a 5xx came from an old SearchAction template. This branch removes the remaining SearchAction from facts.json; Google retired sitelinks search box markup in October 2024. Redirect changes are high-risk: stage them.",
+  ),
+);
+
+audit.push(H("Y10. Sitemap housekeeping in Search Console (low)", HeadingLevel.HEADING_2));
 audit.push(
   P(
     "GSC still holds an http:// copy of the sitemap index, submitted on 3 June, and sitemap-resources.xml shows 2 warnings. Remove the http:// entry and resolve the warnings. Note that the GSC \"Unnamed item\" label on breadcrumbs is not a markup fault: every ListItem checked has a name.",
@@ -561,7 +631,9 @@ audit.push(
       ["13. Add a monitor that alerts on the \"One moment, please...\" title (R1)", "S", "M", "Dev"],
       ["14. Add short walkthrough videos to case studies and the benchmarks report (Y8)", "M", "S", "Founders"],
       ["15. Stop expanding the discovery file set; generate llms.txt from facts.json; fix /llm.txt (Y7)", "S", "S", "Dev"],
-      ["16. Remove the http:// sitemap from GSC; fix the sitemap-resources warnings (Y9)", "S", "S", "Dev"],
+      ["16. Remove the http:// sitemap from GSC; fix the sitemap-resources warnings (Y10)", "S", "S", "Dev"],
+      ["17. Collapse 2-hop redirects to one hop; repoint /downloads/ and the TikTok PDF* (Y9)", "S", "S", "Dev"],
+      ["18. Validate fix for the 12 5xx URLs in GSC; export and triage the 45 404s by inbound links", "S", "S", "Dev"],
     ],
     [5960, 900, 900, 1600],
   ),
@@ -615,10 +687,10 @@ ex.push(
     [6560, 1400, 1400],
   ),
 );
-ex.push(P("Health score 24/100 (F). GEO score 54/100 (poor). Impressions have recovered to about 72% of the July peak, but average position has slipped every week since 28 September (15.7 to 23.3)."));
+ex.push(P("Health score 23/100 (F). GEO score 54/100 (poor). Impressions have recovered to about 72% of the July peak, but average position has slipped every week since 28 September (15.7 to 23.3)."));
 
 ex.push(H("Read the full audit", HeadingLevel.HEADING_1));
-ex.push(P("juicy-designs-aeo-audit.docx - measurement snapshot, AI visibility sweep and citability scores, 23-point scorecard (17 of 22 passed), 6 red flags, 9 yellow flags and a 16-item roadmap."));
+ex.push(P("juicy-designs-aeo-audit.docx - measurement snapshot, AI visibility sweep and citability scores, 23-point scorecard (17 of 22 passed), 6 red flags, 10 yellow flags, a check of the supplied GSC exports and draft top 100 list, and an 18-item roadmap."));
 
 const exDoc = new Document({ styles, numbering, sections: [{ ...pageSetup, children: ex }] });
 
